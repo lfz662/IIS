@@ -1,0 +1,53 @@
+﻿@inherits UmbracoViewPage<CareersModel>
+@using LFZ_Logic.Models;
+<div id="CareersFormresult"  style="display:none;text-align:center;margin-top:30px;margin-bottom:15px;"></div>
+@using(Html.BeginUmbracoForm("SubmitCareersForm","Careers", FormMethod.Post, new {@id="CareersForm" ,enctype="multipart/form-data"}))  
+{ 
+ @Html.AntiForgeryToken()
+@* <form data-aos="fade-up" data-aos-duration="1000">*@
+                        <ul class="careersForm">
+                            <li>
+                                @Html.TextBoxFor(m => m.Name, new { @class = "textbox",onkeyup = "cngName()",onblur="cngName()", @placeholder = "Name" ,@id="Name", @required = true, maxlength="100"})
+                               @*@Html.ValidationMessageFor(m => m.FirstName)*@
+                               <span class="field-validation-error" id="pName"></span>
+                            </li>
+                            <li>
+                                @Html.TextBoxFor(m => m.MobileNumber, new { @class = "textbox",onkeyup = "cngMobileNumber()",onblur="cngMobileNumber()", @placeholder = "Mobile Number",@id="MobileNumber", @required = true,@number=true , maxlength="10"})
+                                @* @Html.ValidationMessageFor(m => m.MobileNumber)*@
+                                <span class="field-validation-error" id="pMobileNumber"></span>
+                            </li>
+                            <li>
+                                @Html.TextBoxFor(m=>m.EmailId,new { @class="textbox" ,onkeyup = "cngEmailId()",onblur="cngEmailId()",@placeholder="Email",@id="EmailId", @required = true, maxlength="100"})
+                                @*@Html.ValidationMessageFor(m => m.Email)*@
+                                <span class="field-validation-error" id="pEmailId"></span>
+                            </li>
+                            <li>
+                                @Html.TextBoxFor(m=>m.Areaofinterest,new { @class="textbox" ,onkeyup = "cngAreaofinterest()",onblur="cngAreaofinterest()",@placeholder="Area of interest",@id="Areaofinterest", @required = true, maxlength="500"})
+                                @*@Html.ValidationMessageFor(m => m.Areaofinterest)*@
+                                <span class="field-validation-error" id="pAreaofinterest"></span>
+                            </li>
+                            <li>
+                                 @Html.TextBoxFor(m=>m.EducationalBackground,new { @class="textbox" ,onkeyup = "cngEducationalBackground()",onblur="cngEducationalBackground()",@placeholder="Educational Background",@id="EducationalBackground", @required = true, maxlength="500"})
+                                @*@Html.ValidationMessageFor(m => m.EducationalBackground)*@
+                                <span class="field-validation-error" id="pEducationalBackground"></span>
+                            </li>
+                            <li>
+                                <div class="borderBx">
+                                    <label>Attach CV</label>
+                                    @Html.TextBoxFor(m => m.UploadFile, new {placeholder="Upload File",onblur="cngUploadFileUrl()" ,  title="Please select file",  type="file"})
+                                    <span class="field-validation-error" id="pUploadFile"></span>
+                                </div>
+                            </li>
+                            <li>
+                                         <span id="g-captcha2"></span>
+                                        <div class="g-recaptcha" data-callback="submitUserForm" data-sitekey="6LdF0zsbAAAAAMwK-sZwa-obXYgozLbN4da76d8Q"></div>
+                                    </li>
+                            
+                            <li>
+                                
+                                <a type="submit" id="btnSubmitCareersForm" onclick="javascript:return FnValidate();" class="submitBut" value="Validate Subcription" >Submit</a> 
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    @*</form>*@
+}

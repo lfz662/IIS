@@ -1,0 +1,159 @@
+﻿ 2020-12-11 00:47:13,744 [P1876/D2/T154] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 00:48:28,962 [P1876/D2/T181] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 00:58:50,958 [P1876/D2/T175] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 01:00:18,005 [P1876/D2/T113] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 01:10:23,204 [P1876/D2/T174] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 01:12:37,375 [P1876/D2/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 01:23:11,621 [P1876/D2/T182] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 01:24:11,386 [P1876/D2/T177] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 01:33:59,601 [P1876/D2/T134] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 01:45:58,862 [P1876/D2/T174] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-12-11 01:57:41,873 [P1876/D2/T56] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-12-11 02:04:42,964 [P1876/D2/T60] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 02:07:29,745 [P1876/D2/T53] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 02:17:35,022 [P1876/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 02:31:17,767 [P1876/D2/T73] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 02:34:35,640 [P1876/D2/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 02:45:39,652 [P1876/D2/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 02:48:17,072 [P1876/D2/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 03:05:16,441 [P1876/D2/T58] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-12-10 03:05:16
+ 2020-12-11 03:05:32,081 [P1876/D2/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 03:09:39,189 [P1876/D2/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 03:45:38,316 [P1876/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 03:48:06,924 [P1876/D2/T56] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 06:24:22,771 [P1876/D2/T68] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-12-11 06:24:25,802 [P1876/D2/T53] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-12-11 07:05:16,459 [P1876/D2/T53] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-12-10 07:05:16
+ 2020-12-11 08:32:42,425 [P1876/D2/T93] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-12-11 08:32:43,519 [P1876/D2/T60] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Umbraco.Core.GuidUdi' does not contain a definition for 'Url'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Views_RedirectPage_cshtml.Execute() in c:\inetpub\wwwroot\lftzweb_umb\Views\RedirectPage.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2020-12-11 11:05:16,460 [P1876/D2/T110] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-12-10 11:05:16
+ 2020-12-11 11:07:56,147 [P1876/D2/T5] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-12-11 13:30:31,358 [P1876/D2/T25] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.LagosFreeZone.com/umbraco
+ 2020-12-11 13:30:31,358 [P1876/D2/T25] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.LagosFreeZone.com/umbraco (UmbracoModule request)
+ 2020-12-11 14:10:38,748 [P1876/D2/T240] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-12-11 15:05:16,462 [P1876/D2/T182] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-12-10 15:05:16
+ 2020-12-11 18:00:45,362 [P1876/D2/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:00:45,768 [P1876/D2/T53] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:00:49,581 [P1876/D2/T101] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:00:50,565 [P1876/D2/T184] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:04:06,095 [P1876/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:04:06,392 [P1876/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:04:10,736 [P1876/D2/T194] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:04:11,017 [P1876/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:09:22,093 [P1876/D2/T152] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-12-11 18:09:22,093 [P1876/D2/T152] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-12-11 18:09:22,093 [P1876/D2/T152] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2020-12-11 18:09:22,093 [P1876/D2/T152] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 2ms)
+ 2020-12-11 18:09:23,546 [P1876/D2/T152] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-12-11 18:09:23,546 [P1876/D2/T152] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-12-11 18:09:23,546 [P1876/D2/T152] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2020-12-11 18:09:23,546 [P1876/D2/T152] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 1ms)
+ 2020-12-11 18:25:24,196 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-12-11 18:25:24,196 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-12-11 18:25:24,196 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2020-12-11 18:25:24,196 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 2ms)
+ 2020-12-11 18:25:24,259 [P1876/D2/T184] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username cmslfz@lfz.com from IP address 152.57.122.90
+ 2020-12-11 18:25:24,259 [P1876/D2/T184] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: cmslfz@lfz.com logged in from IP address 152.57.122.90
+ 2020-12-11 18:25:45,493 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-12-11 18:25:45,493 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-12-11 18:25:45,493 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2020-12-11 18:25:45,493 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 0ms)
+ 2020-12-11 18:25:45,524 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-12-11 18:25:45,524 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-12-11 18:25:45,524 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2020-12-11 18:25:45,524 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2020-12-11 18:25:45,540 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-12-11 18:25:45,540 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-12-11 18:25:45,540 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2020-12-11 18:25:45,540 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2020-12-11 18:25:45,555 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-12-11 18:25:45,555 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-12-11 18:25:45,555 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2020-12-11 18:25:45,555 [P1876/D2/T184] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2020-12-11 18:32:01,193 [P1876/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:32:01,787 [P1876/D2/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:32:02,418 [P1876/D2/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:32:03,131 [P1876/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:36:10,551 [P1876/D2/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:36:12,020 [P1876/D2/T231] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:36:13,489 [P1876/D2/T68] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:36:15,114 [P1876/D2/T184] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 18:45:14,970 [P1876/D2/T246] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: cmslfz@lfz.com, IP Address: 152.57.122.90
+ 2020-12-11 18:56:09,512 [P1876/D2/T184] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username cmslfz@lfz.com from IP address 152.57.122.90
+ 2020-12-11 18:56:09,512 [P1876/D2/T184] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: cmslfz@lfz.com logged in from IP address 152.57.122.90
+ 2020-12-11 18:56:55,840 [P1876/D2/T59] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username cmslfz@lfz.com from IP address 152.57.122.90
+ 2020-12-11 18:56:55,840 [P1876/D2/T59] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: cmslfz@lfz.com logged in from IP address 152.57.122.90
+ 2020-12-11 18:59:15,980 [P1876/D2/T246] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username cmslfz@lfz.com from IP address 152.57.122.90
+ 2020-12-11 18:59:15,980 [P1876/D2/T246] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: cmslfz@lfz.com logged in from IP address 152.57.122.90
+ 2020-12-11 18:59:48,354 [P1876/D2/T68] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username cmslfz@lfz.com from IP address 152.57.122.90
+ 2020-12-11 18:59:48,354 [P1876/D2/T68] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: cmslfz@lfz.com logged in from IP address 152.57.122.90
+ 2020-12-11 19:05:16,462 [P1876/D2/T73] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-12-10 19:05:16
+ 2020-12-11 19:07:13,617 [P1876/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 19:07:16,742 [P1876/D2/T184] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 19:07:19,820 [P1876/D2/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 19:07:22,867 [P1876/D2/T68] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 19:16:16,504 [P1876/D2/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 19:16:19,426 [P1876/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 19:16:22,848 [P1876/D2/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 19:16:26,160 [P1876/D2/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 20:19:40,714 [P1876/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 20:19:43,339 [P1876/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 20:19:46,089 [P1876/D2/T296] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 20:19:48,948 [P1876/D2/T184] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 20:25:57,727 [P1876/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 20:25:58,321 [P1876/D2/T68] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 20:25:58,883 [P1876/D2/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 20:25:59,493 [P1876/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:07:21,930 [P1876/D2/T68] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:07:23,399 [P1876/D2/T98] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:07:29,023 [P1876/D2/T108] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:07:30,523 [P1876/D2/T243] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:17:25,285 [P1876/D2/T95] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:17:42,910 [P1876/D2/T99] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:17:57,129 [P1876/D2/T233] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:18:19,410 [P1876/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:57:38,348 [P1876/D2/T138] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:57:42,270 [P1876/D2/T233] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:57:47,551 [P1876/D2/T296] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 21:57:50,895 [P1876/D2/T243] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 22:05:28,298 [P1876/D2/T146] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 22:05:32,485 [P1876/D2/T107] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 22:05:37,220 [P1876/D2/T243] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 22:05:41,517 [P1876/D2/T233] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 22:57:27,544 [P1876/D2/T102] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 22:57:27,841 [P1876/D2/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 22:57:28,169 [P1876/D2/T184] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 22:57:28,512 [P1876/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 23:05:16,462 [P1876/D2/T296] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-12-10 23:05:16
+ 2020-12-11 23:07:20,790 [P1876/D2/T233] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 23:07:26,415 [P1876/D2/T68] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 23:07:28,587 [P1876/D2/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 23:07:33,102 [P1876/D2/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-12-11 23:36:26,185 [P1876/D2/T107] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.

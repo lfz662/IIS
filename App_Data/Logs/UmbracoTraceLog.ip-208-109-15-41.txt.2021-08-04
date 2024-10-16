@@ -1,0 +1,56 @@
+﻿ 2021-08-04 00:33:18,069 [P6868/D2/T156] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-08-04 00:41:43,455 [P6868/D2/T132] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 01:02:59,455 [P6868/D2/T69] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 01:13:47,483 [P6868/D2/T28] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 01:34:21,894 [P6868/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-08-03 01:34:21
+ 2021-08-04 05:22:21,201 [P6868/D2/T129] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-08-04 05:22:21,389 [P6868/D2/T127] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-08-04 05:22:21,569 [P6868/D2/T119] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-08-04 05:22:21,753 [P6868/D2/T252] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-08-04 05:22:21,935 [P6868/D2/T122] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-08-04 05:22:22,465 [P6868/D2/T249] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-08-04 05:22:22,696 [P6868/D2/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-08-04 05:34:21,920 [P6868/D2/T121] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-08-03 05:34:21
+ 2021-08-04 08:00:10,280 [P6868/D2/T269] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 08:43:25,819 [P6868/D2/T12] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 09:34:21,956 [P6868/D2/T80] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-08-03 09:34:21
+ 2021-08-04 13:34:21,983 [P6868/D2/T77] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-08-03 13:34:21
+ 2021-08-04 14:40:09,034 [P6868/D2/T19] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 15:32:57,142 [P6868/D2/T43] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-08-04 17:03:05,916 [P6868/D2/T121] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 17:20:25,667 [P6868/D2/T19] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Search_cshtml.Execute() in c:\inetpub\wwwroot\lftzweb_umb\Views\Search.cshtml:line 10
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2021-08-04 17:24:29,962 [P6868/D2/T85] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 17:34:22,018 [P6868/D2/T10] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-08-03 17:34:21
+ 2021-08-04 17:36:44,085 [P6868/D2/T129] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 17:49:59,706 [P6868/D2/T251] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 17:51:47,891 [P6868/D2/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 17:51:48,802 [P6868/D2/T93] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 19:01:37,284 [P6868/D2/T47] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 19:30:48,864 [P6868/D2/T30] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 19:39:17,048 [P6868/D2/T47] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-08-04 21:34:22,044 [P6868/D2/T127] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-08-03 21:34:22

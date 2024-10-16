@@ -1,0 +1,217 @@
+﻿
+
+<!-- popup start -->
+            <div class="clientPopup" id="applynow" style="display:none;">
+            <div class="clientPopupSkew">
+                <div class="clientPopupCont">
+                    
+
+                    <div class="careersBx contactBx" style="padding: 0 30px;">      
+                    <h3>Apply Now</h3><br>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col-md-6">
+                            <div class="row padRht">
+                                <ul class="careersForm">
+                                    <li>
+                                       @* @Html.TextBoxFor(m => m.Name, new { @class = "textbox",onkeyup = "cngName()",onblur="cngName()", @placeholder = "Name" ,@id="Name", @required = true, maxlength="100"})*@
+                                        <input type="text" name="name" id="Name" value="" placeholder="Name" class="textbox" onkeyup = "cngName()" onblur="cngName()" maxlength="100" required>
+                                         @*@Html.ValidationMessageFor(m => m.FirstName)*@
+                                         <span class="field-validation-error" id="pName"></span>
+                                    </li>
+                                    
+                                    <li>
+                                        @*@Html.TextBoxFor(m=>m.EmailId,new { @class="textbox" ,onkeyup = "cngEmailId()",onblur="cngEmailId()",@placeholder="Email",@id="EmailId", @required = true, maxlength="100"})*@
+                                        <input type="email" name="EmailId" id="EmailId" value="" placeholder="Email" class="textbox" onkeyup = "cngEmailId()" onblur="cngEmailId()" maxlength="100" required>
+                                        @*@Html.ValidationMessageFor(m => m.Email)*@
+                                        <span class="field-validation-error" id="pEmailId"></span>
+                                    </li>
+                                    <li>
+                                        @*@Html.TextBoxFor(m => m.MobileNumber, new { @class = "textbox",onkeyup = "cngMobileNumber()",onblur="cngMobileNumber()", @placeholder = "Mobile Number",@id="MobileNumber", @required = true,@number=true , maxlength="10"})*@
+                                        <input type="text" name="mobile" id="MobileNumber" value="" placeholder="Mobile" class="textbox" onkeyup = "cngMobileNumber()" onblur="cngMobileNumber()" maxlength="10" required>
+                                        @* @Html.ValidationMessageFor(m => m.MobileNumber)*@
+                                        <span class="field-validation-error" id="pMobileNumber"></span>
+                                    </li>
+                                     <li>
+                                         <span id="g-captcha3"></span>
+                                        <div class="g-recaptcha" data-callback="submitUserForm" data-sitekey="6LdF0zsbAAAAAMwK-sZwa-obXYgozLbN4da76d8Q"></div>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row padLft">
+                                <ul class="careersForm">
+                                    <li>
+                                        @*@Html.TextBoxFor(m=>m.EnquiryFor,new { @class="textbox" ,onkeyup = "cngEnquiryFor()",onblur="cngEnquiryFor()",@placeholder="Enquiry For",@id="EnquiryFor", @required = true, maxlength="500"})*@
+                                        <input type="text" name="enquiryFor" id="EnquiryFor" value="" placeholder="Enquiry For" onkeyup = "cngEnquiryFor()"  onblur="cngEnquiryFor()" class="textbox" maxlength="500" required>
+                                        @*@Html.ValidationMessageFor(m => m.EnquiryFor)*@
+                                        <span class="field-validation-error" id="pEnquiryFor"></span>
+                                    </li>
+                                    <li>
+                                        @*@Html.TextAreaFor(m=>m.Message,new { @rows = "2",@class="textbox" ,onkeyup = "cngMessage()",onblur="cngMessage()",@placeholder="Message",@id="Message", @required = true, maxlength="2000"})*@
+                                        <textarea row="2" col="2" id="Message" placeholder="Additional Information" onkeyup = "cngMessage()" onblur="cngMessage()" maxlength="2000" required></textarea>
+                                        @*@Html.ValidationMessageFor(m => m.Message)*@
+                                        <span class="field-validation-error" id="pMessage"></span>
+                                    </li>
+                                   
+                                    <li>
+                                        <a type="submit" id="btnSubmitApplyNowForm" onclick="javascript:return FnValidate();" class="submitBut" value="Validate Subcription" >Submit</a>
+                                    </li>
+                                   
+                                </ul>
+                                 
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <span id="ApplyNowFormresult"  style="display:none;text-align:center;"></span>
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+           
+        </div>
+        
+        <script>
+   
+    function FnValidate()
+    {
+           var sFlag = true;
+           
+          if (document.getElementById("Name").value == "") {
+            
+                document.getElementById("pName").innerHTML =  "Please enter name.";
+                document.getElementById("Name").focus();
+                 sFlag = false;
+                return;
+           }
+         
+           if (document.getElementById("EmailId").value == "") {
+            
+                document.getElementById("pEmailId").innerHTML =  "Please enter your email-Id.";
+                document.getElementById("EmailId").focus();
+                 sFlag = false;
+                return;
+           }
+           else
+           {
+                    var reg = /^([A-Za-z0-9_\-\.])+\@@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        
+                    if (reg.test(document.getElementById("EmailId").value) == false) {
+                        document.getElementById("pEmailId").innerHTML = 'Please enter a valid e-mail address';
+                        document.getElementById("EmailId").focus();
+                        sFlag = false;
+                        return ;
+                    }
+            }
+             if (document.getElementById("MobileNumber").value == "") {
+            
+                document.getElementById("pMobileNumber").innerHTML =  "Please enter your mobile number.";
+                document.getElementById("MobileNumber").focus();
+                 sFlag = false;
+                return;
+           }
+           else
+            {   
+                    if (isNaN(document.getElementById("MobileNumber").value.replace(/^\s+/g, '').replace(/\s+$/g, '')) == true) {
+                         document.getElementById("pMobileNumber").innerHTML =  "Please enter valid mobile number.";
+                         document.getElementById("MobileNumber").focus();
+                        sFlag = false;
+                        return;
+                    }
+                    else {
+        
+                        if (document.getElementById("MobileNumber").value.length != 10) {
+                            document.getElementById("pMobileNumber").innerHTML =  "Please enter valid 10 digit mobile number.";
+                            document.getElementById("MobileNumber").focus();
+                             sFlag = false;
+                            return;
+                        }
+                    }
+                    
+            }
+           if (document.getElementById("EnquiryFor").value == "") {
+            
+                document.getElementById("pEnquiryFor").innerHTML =  "Please enter enquiry for.";
+                document.getElementById("EnquiryFor").focus();
+                 sFlag = false;
+                return;
+           }
+           if (document.getElementById("Message").value == "") {
+            
+                document.getElementById("pMessage").innerHTML =  "Please enter message.";
+                document.getElementById("Message").focus();
+                 sFlag = false;
+                return;
+           }
+           var response = grecaptcha.getResponse();
+           if(response.length == 0) {
+        document.getElementById('g-captcha3').innerHTML = '<span style="color:red;">This field is required.</span>';
+       sFlag = false;
+    }
+          
+           if(sFlag)
+           {
+                ApplyNowForm_submit();
+           }
+    }
+    
+    function cngName()
+    {
+        document.getElementById("pName").innerHTML = "";
+    }
+    function cngMobileNumber()
+    {
+        document.getElementById("pMobileNumber").innerHTML = "";
+    }
+    function cngEmailId()
+    {
+        document.getElementById("pEmailId").innerHTML = "";
+    }
+    function cngEnquiryFor()
+    {
+        document.getElementById("pEnquiryFor").innerHTML = "";
+    }
+    function cngMessage()
+    {
+        document.getElementById("pMessage").innerHTML = "";
+    }
+    
+    function ApplyNowForm_submit() {
+     var sendMassege ='/umbraco/surface/ApplyNow/SubmitApplyNowForm?name=' + $('#Name').val().trim()+'&emailId='+$('#EmailId').val()+'&mobile='+$('#MobileNumber').val()+'&enquiryFor='+$('#EnquiryFor').val()+'&message='+$('#Message').val();
+     
+      $.ajax({
+            method: "POST",
+            url: sendMassege,
+             success: function (res) {
+                if(res == "succ")
+                {
+                    document.getElementById("ApplyNowFormresult").style.display = "block";
+                    document.getElementById("ApplyNowFormresult").innerHTML  = "<h3 style='color:#307C00;font-size:18px;'>Thank you</h3><p style='color:#307C00;font-size:16px;' > We have received your entry.</p>";
+                }
+                else if(res == "alr")
+                {
+                    document.getElementById("ApplyNowFormresult").style.display = "block";
+                    document.getElementById("ApplyNowFormresult").innerHTML  = "<p style='color:#307C00;font-size:16px;' > You have already filled the application .</p>";
+                }
+                else
+                {
+                    document.getElementById("ApplyNowFormresult").innerHTML  =  "<p style='color:#F57921;font-size:16px;'>Sorry, Please try again later </p>";
+                   document.getElementById("ApplyNowFormresult").style.display = "block";
+                }
+              document.getElementById("Name").value = "";
+              document.getElementById("EmailId").value = "";
+              document.getElementById("MobileNumber").value = "";
+              document.getElementById("EnquiryFor").value = "";
+              document.getElementById("Message").value = "";
+            },
+            error: function(xhr, ajaxOptions, thrownError){
+                  document.getElementById("ApplyNowFormresult").innerHTML  =  "<p style='color:#F57921;font-size:16px;'>Sorry, Please try again later </p>";
+                   document.getElementById("ApplyNowFormresult").style.display = "block";
+             }
+           });
+    }
+    </script>
+     

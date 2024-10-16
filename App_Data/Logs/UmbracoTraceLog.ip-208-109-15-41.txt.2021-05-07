@@ -1,0 +1,153 @@
+﻿ 2021-05-07 00:59:01,624 [P4252/D3/T156] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 01:18:58,205 [P4252/D3/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 02:50:50,597 [P4252/D3/T264] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Umbraco.Core.GuidUdi' does not contain a definition for 'Url'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Views_RedirectPage_cshtml.Execute() in c:\inetpub\wwwroot\lftzweb_umb\Views\RedirectPage.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2021-05-07 03:58:33,191 [P4252/D3/T248] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-06 03:58:33
+ 2021-05-07 05:20:53,704 [P4252/D3/T255] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 05:35:51,777 [P4252/D3/T126] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 07:58:33,221 [P4252/D3/T59] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-06 07:58:33
+ 2021-05-07 11:58:33,236 [P4252/D3/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-06 11:58:33
+ 2021-05-07 13:31:17,086 [P4252/D3/T12] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 13:49:11,876 [P4252/D3/T268] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 15:58:33,276 [P4252/D3/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-06 15:58:33
+ 2021-05-07 16:18:54,298 [P4252/D3/T137] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 16:33:12,221 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2021-05-07 16:33:12,222 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2021-05-07 16:33:12,234 [P4252/D3/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2021-05-07 16:33:12,253 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2021-05-07 16:33:12,253 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2021-05-07 16:33:12,254 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2021-05-07 16:33:12,254 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2021-05-07 16:33:12,254 [P4252/D3/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2021-05-07 16:33:12,254 [P4252/D3/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2021-05-07 16:33:12,259 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2021-05-07 16:33:12,259 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2021-05-07 16:33:12,259 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2021-05-07 16:33:12,260 [P4252/D3/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2021-05-07 16:33:12,260 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2021-05-07 16:33:12,260 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2021-05-07 16:33:12,263 [P4252/D3/T89] INFO  Umbraco.Core.MainDom - Stopping...
+ 2021-05-07 16:33:12,270 [P4252/D3/T89] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2021-05-07 16:33:12,272 [P4252/D3/T89] INFO  Umbraco.Web.ExamineStartup - Complete (took 2ms)
+ 2021-05-07 16:33:12,273 [P4252/D3/T89] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2021-05-07 16:33:12,274 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2021-05-07 16:33:12,274 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2021-05-07 16:33:12,275 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2021-05-07 16:33:12,275 [P4252/D3/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2021-05-07 16:33:12,275 [P4252/D3/T257] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2021-05-07 16:33:12,276 [P4252/D3/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2021-05-07 16:33:42,293 [P4252/D3/T89] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2021-05-07 16:51:24,028 [P852/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.10.0 application starting on IP-208-109-15-4
+ 2021-05-07 16:51:24,061 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2021-05-07 16:51:24,070 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2021-05-07 16:51:24,156 [P852/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2021-05-07 16:51:24,159 [P852/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2021-05-07 16:51:24,161 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-07 16:51:24,220 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 58ms)
+ 2021-05-07 16:51:24,221 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2021-05-07 16:51:24,222 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2021-05-07 16:51:24,255 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-07 16:51:24,256 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-07 16:51:24,257 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2021-05-07 16:51:24,257 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2021-05-07 16:51:24,257 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-07 16:51:24,257 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-07 16:51:24,258 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2021-05-07 16:51:24,259 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2021-05-07 16:51:24,276 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-07 16:51:24,276 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-07 16:51:24,276 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2021-05-07 16:51:24,277 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2021-05-07 16:51:24,277 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-07 16:51:24,278 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-07 16:51:24,278 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2021-05-07 16:51:24,279 [P852/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2021-05-07 16:51:26,740 [P852/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2021-05-07 16:51:27,055 [P852/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2021-05-07 16:51:27,325 [P852/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2021-05-07 16:51:27,326 [P852/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 4
+ 2021-05-07 16:51:27,347 [P852/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3449ms)
+ 2021-05-07 16:51:27,847 [P852/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://lagosfreezone.com/umbraco
+ 2021-05-07 16:51:27,849 [P852/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://lagosfreezone.com/umbraco (UmbracoModule request)
+ 2021-05-07 16:51:28,352 [P852/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2021-05-07 16:51:28,358 [P852/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2021-05-07 16:51:29,142 [P852/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-07 16:51:29,142 [P852/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-07 16:51:29,143 [P852/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2021-05-07 16:51:29,143 [P852/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2021-05-07 16:51:32,489 [P852/D2/T10] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\App_Data\Models\all.generated.cs(1613): error CS0542: 'RedirectPage': member names cannot be the same as their enclosing type
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels()
+ 2021-05-07 16:51:32,493 [P852/D2/T10] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2021-05-07 16:51:33,086 [P852/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-07 16:51:33,087 [P852/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-07 16:51:33,087 [P852/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2021-05-07 16:51:33,087 [P852/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2021-05-07 16:52:28,418 [P852/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-07 16:52:28,419 [P852/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-07 16:52:28,419 [P852/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2021-05-07 16:52:28,421 [P852/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 1ms)
+ 2021-05-07 16:52:28,628 [P852/D2/T18] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-06 16:52:28
+ 2021-05-07 17:09:02,532 [P852/D2/T96] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-07 17:09:02,532 [P852/D2/T96] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-07 17:09:02,533 [P852/D2/T96] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2021-05-07 17:09:02,534 [P852/D2/T96] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 1ms)
+ 2021-05-07 17:10:23,264 [P852/D2/T106] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 17:14:27,903 [P852/D2/T123] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 17:14:28,498 [P852/D2/T133] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 17:55:21,859 [P852/D2/T230] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 18:07:15,689 [P852/D2/T247] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.lagosfreezone.com/umbraco
+ 2021-05-07 18:07:15,692 [P852/D2/T247] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.lagosfreezone.com/umbraco (UmbracoModule request)
+ 2021-05-07 18:51:37,955 [P852/D2/T205] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 18:53:49,942 [P852/D2/T217] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 18:53:51,132 [P852/D2/T226] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 18:54:23,539 [P852/D2/T191] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 19:25:51,862 [P852/D2/T153] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 19:46:47,873 [P852/D2/T158] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 19:52:19,282 [P852/D2/T140] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 20:40:05,842 [P852/D2/T151] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-07 20:52:28,676 [P852/D2/T153] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-06 20:52:28
+ 2021-05-07 20:55:40,994 [P852/D2/T146] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.

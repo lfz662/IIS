@@ -1,0 +1,81 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+@{
+  var newsDeskImage = Model.GetPropertyValue<IPublishedContent>("newsDesktopImage");
+  var newsMobImage = Model.GetPropertyValue<IPublishedContent>("newsMobileImage");
+}
+<div class="newsBx" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200" style="display:none;">
+                <img src="@newsDeskImage.Url" width="1188" height="490" alt="" class="img-responsive newsBg hidden-xs hidden-sm">
+                <img src="@newsMobImage.Url" width="594" height="450" alt="" class="img-responsive newsBg visible-xs visible-sm">
+                <span class="whiteSkewLft"></span>
+                <div class="newsCont">
+                    <div class="container">
+                        <div class="row">
+                            <div class="newsGalleryBx">
+                                <ul class="newsGallery" id="newsGallery">
+                                    @{
+                                        var News = Umbraco.TypedContent(1203).Children("redirectPage")
+    						                                .Where(x => x.IsVisible());//data call from news template
+                                    	foreach(var item in News)
+                                    	{
+                                    		var contentcollection = item.Children.Where("Visible");
+                                            foreach (Umbraco.Web.Models.DynamicPublishedContent field in contentcollection.OrderBy("newsDate desc"))
+                                            {
+                                            
+                                                
+                                                var date = DateTime.Parse(field.GetPropertyValue("newsDate").ToString()).ToString("dd MMMM, yyyy");
+                                                var titleTxt = field.GetPropertyValue("newsText");
+                                                 var headingTxt = field.GetPropertyValue("homePageHeading");
+                                                var url = field.GetPropertyValue("externalLink") != "" ? field.GetPropertyValue("externalLink") : field.Url;
+                                                var externalurl = field.GetPropertyValue("showHtml").ToString() == "True" ? field.Url : field.GetPropertyValue("externalLink");
+                                                var newsThumbImage = field.GetPropertyValue<IPublishedContent>("newsThumbImage");
+                                                <li>
+                                                    <div class="newsArticle">
+                                                        <a href="@externalurl" target="_blank">
+                                                            <span class="newsPhoto">
+                                                                <img src="@newsThumbImage.Url" width="300" height="195" alt="" class="img-responsive">
+                                                            </span>
+                                                            <span class="newsTxt">
+                                                                <span class="newsHead">@headingTxt</span>
+                                                                <span class="newsPara">@titleTxt</span>
+                                                            </span>
+                                                        </a>    
+                                                    </div>
+                                                </li>
+                                            }
+                                         }
+                                       }
+                                        @*var News = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("news");//data call from home template
+                                        if (News != null && News.Count() > 0)
+                                        {
+                                           foreach (var field in News)
+                                            {
+                                                var NewsThumbImg = field.GetPropertyValue<IPublishedContent>("thumbImage");
+                                                <li>
+                                                    <div class="newsArticle">
+                                                        <a href="@field.GetPropertyValue("titleLink")" target="_blank">
+                                                            <span class="newsPhoto">
+                                                                <img src="@NewsThumbImg.Url" width="300" height="195" alt="" class="img-responsive">
+                                                            </span>
+                                                            <span class="newsTxt">
+                                                                <span class="newsHead">@field.GetPropertyValue("title")</span>
+                                                                <span class="newsPara">@field.GetPropertyValue("newsDescription")</span>
+                                                            </span>
+                                                        </a>    
+                                                    </div>
+                                                </li>
+                                            }
+                                        }*@
+                                        
+                                    }
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>    
+                            <div class="newsGalleryHead" data-aos="fade-right" data-aos-duration="1500">
+                                <h2>@Model.GetPropertyValue("newsTitle")</h2>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>    
+                    </div>
+                </div>
+            </div>

@@ -1,0 +1,221 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+
+@{
+	Layout = "MasterPage.cshtml";
+}
+@section fullPage
+{
+ <section id="content">
+     @if (!Model.GetPropertyValue<bool>("isBanner"))
+     {
+     <div class="bannerWithTexture">
+                <div class="innerTopBanner">
+                    <!-- desktop image -->
+                    <div class="innerTopBannerImgDesk hidden-sm hidden-xs" style="background-image: url(@((Model.GetPropertyValue<IPublishedContent>("bannerBackgroundImage")).Url));"></div>
+
+                    <!-- mobile image -->
+                    <div class="innerTopBannerImgMob visible-sm visible-xs" style="background-image: url(@((Model.GetPropertyValue<IPublishedContent>("bannerMobileImage")).Url));"></div>
+
+                    <!-- video  -->
+                    <!-- <video width="320" height="240" poster="images/videoPoster.png" autoplay muted loop playsinline class="hidden-sm hidden-xs">
+                        <source src="video/lfz_4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> -->
+
+                   @if (Model.HasValue("bannerTitle"))
+                      {
+                        <h1 class="pageTitle" data-aos="fade-down" data-aos-duration="1000">@(@Html.Raw(!string.IsNullOrEmpty(Model.GetPropertyValue("bannerTitle").ToString()) ? Model.GetPropertyValue("bannerTitle") : ""))</h1>
+                        <!--<h1 class="pageTitle" data-aos="fade-down" data-aos-duration="1000">@(!string.IsNullOrEmpty(Model.GetPropertyValue("bannerTitle").ToString()) ? Model.GetPropertyValue("bannerTitle") : "")</h1>-->
+                      }  
+                    <div class="bredcrumb" data-aos="fade-right" data-aos-duration="1000">
+                         @Umbraco.RenderMacro("BreadCum")
+                    </div>
+                </div>
+                
+                
+
+                <div class="container">
+                    <div class="bannerBtmTxt contactBannerBtmTxt" data-aos="fade-right" data-aos-duration="1000">
+                        @Html.Raw(@Model.GetPropertyValue("bannerDescription"))
+                    </div>
+                </div>
+
+       </div>
+    }
+	
+	
+            <div class="container">
+@if (Model.GetPropertyValue<bool>("showAddress"))
+     {
+                <div class="devCharBx">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="500">
+<h6 style="padding: 0;">Registered Address:</h6><br>
+<p class="pb1">Lagos Free Zone Company<br><br>
+6th Floor, Block A, Nipost Office Towers<br>
+23, Adeola Odeku Street<br>
+Victoria Island Lagos Nigeria.</p><br><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.719153916281!2d3.4146001507359793!3d6.430113726002106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ad259133583%3A0xca5c968b92c0180d!2sNipost%20Towers!5e0!3m2!1sen!2sin!4v1586694655228!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="visible-sm visible-xs"><br><Br></div>
+                    <h6 style="padding: 0;">Site Address:</h6><br>
+<p class="pb1">Lagos Free Zone <br><br>Itoke Village,<br>Ibeju Lekki Local Govt. Area Lekki, <br>Lagos, Nigeria<br></p><br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6936924382403!2d4.018074614770204!3d6.433377795345482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103934f409ef6c53%3A0x9a878f0ca81d5be7!2sLagos%20Free%20Zone!5e0!3m2!1sen!2sin!4v1598706524008!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                </div>
+}
+                <!-- <div class="contactMap" data-aos="fade-up" data-aos-duration="1000">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.724471713382!2d3.4342203147178294!3d6.429431795348304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5233da6ad7f%3A0xc06db1fafec58d1e!2sLFZ%20COMPANY!5e0!3m2!1sen!2sin!4v1586597736193!5m2!1sen!2sin" width="1060" height="470" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div> -->
+                <div class="clearfix"></div><br><br>
+                <div class="careersBx contactBx">     
+                
+                    <a href="" class="headingBg withArrow" data-aos="fade-up" data-aos-duration="1000">
+                        @(@Html.Raw(!string.IsNullOrEmpty(Model.GetPropertyValue("formTitle").ToString()) ? Model.GetPropertyValue("formTitle") : ""))
+                        </a>
+
+                    @{ Html.RenderAction("RenderContactUsForm", "ContactUs");}
+                    @*@Html.Partial("ContactUs/contact-us")
+              @(@Html.Raw(!string.IsNullOrEmpty(Model.GetPropertyValue("form").ToString()) ? Model.GetPropertyValue("form") : ""))
+               *@  
+                 
+                </div>
+
+            </div>
+	
+ </section>
+}
+@section footerScripts
+{
+<script>
+  function FnValidate()
+    {
+           var sFlag = true;
+           
+          if (document.getElementById("Name").value == "") {
+            
+                document.getElementById("pName").innerHTML =  "Please enter name.";
+                document.getElementById("Name").focus();
+                 sFlag = false;
+                return;
+           }
+         
+           if (document.getElementById("EmailId").value == "") {
+            
+                document.getElementById("pEmailId").innerHTML =  "Please enter your email-Id.";
+                document.getElementById("EmailId").focus();
+                 sFlag = false;
+                return;
+           }
+           else
+           {
+                    var reg = /^([A-Za-z0-9_\-\.])+\@@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        
+                    if (reg.test(document.getElementById("EmailId").value) == false) {
+                        document.getElementById("pEmailId").innerHTML = 'Please enter a valid e-mail address';
+                        document.getElementById("EmailId").focus();
+                        sFlag = false;
+                        return ;
+                    }
+            }
+             if (document.getElementById("MobileNumber").value == "") {
+            
+                document.getElementById("pMobileNumber").innerHTML =  "Please enter your mobile number.";
+                document.getElementById("MobileNumber").focus();
+                 sFlag = false;
+                return;
+           }
+           else
+            {   
+                    if (isNaN(document.getElementById("MobileNumber").value.replace(/^\s+/g, '').replace(/\s+$/g, '')) == true) {
+                         document.getElementById("pMobileNumber").innerHTML =  "Please enter valid mobile number.";
+                         document.getElementById("MobileNumber").focus();
+                        sFlag = false;
+                        return;
+                    }
+                    else {
+        
+                        if (document.getElementById("MobileNumber").value.length != 10) {
+                            document.getElementById("pMobileNumber").innerHTML =  "Please enter valid 10 digit mobile number.";
+                            document.getElementById("MobileNumber").focus();
+                             sFlag = false;
+                            return;
+                        }
+                    }
+                    
+            }
+           if (document.getElementById("EnquiryFor").value == "") {
+            
+                document.getElementById("pEnquiryFor").innerHTML =  "Please enter enquiry for.";
+                document.getElementById("EnquiryFor").focus();
+                 sFlag = false;
+                return;
+           }
+           if (document.getElementById("Message").value == "") {
+            
+                document.getElementById("pMessage").innerHTML =  "Please enter additional information.";
+                document.getElementById("Message").focus();
+                 sFlag = false;
+                return;
+           }
+           
+          var response = grecaptcha.getResponse();
+    if(response.length == 0) {
+        document.getElementById('g-captcha1').innerHTML = '<span style="color:red;">This field is required.</span>';
+       sFlag = false;
+    }
+    
+           if(sFlag)
+           {
+                document.getElementById("ContactUsForm").submit();
+           }
+    }
+    function cngName()
+    {
+        document.getElementById("pName").innerHTML = "";
+    }
+    function cngMobileNumber()
+    {
+        document.getElementById("pMobileNumber").innerHTML = "";
+    }
+    function cngEmailId()
+    {
+        document.getElementById("pEmailId").innerHTML = "";
+    }
+    function cngEnquiryFor()
+    {
+        document.getElementById("pEnquiryFor").innerHTML = "";
+    }
+    function cngMessage()
+    {
+        document.getElementById("pMessage").innerHTML = "";
+    }
+    
+    
+    </script>
+    <script>
+    getAllUrlParams(window.location.search);
+          function getAllUrlParams(url) {
+         
+          var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+            queryString = queryString.split('=')[1];
+            
+            if(queryString != null)
+            {
+                if(queryString == "succ")
+                {
+                    document.getElementById("ContactUsFormresult").style.display = "block";
+                    document.getElementById("ContactUsFormresult").innerHTML  = "<h3 style='color:#307C00'>Thank you</h3><p style='color:#307C00' > Thank you for contacting us.</p>";
+                }
+                else
+                {
+                    document.getElementById("ContactUsFormresult").innerHTML  =  "<p style='color:#F57921'>Sorry, Please try again later </p>";
+                   document.getElementById("ContactUsFormresult").style.display = "block";
+                }
+              
+                
+            }
+      }
+</script>
+ }

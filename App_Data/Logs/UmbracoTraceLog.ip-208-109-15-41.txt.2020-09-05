@@ -1,0 +1,169 @@
+﻿ 2020-09-05 00:09:24,643 [P5648/D2/T114] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:09:27,409 [P5648/D2/T89] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:21:56,560 [P5648/D2/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:21:59,294 [P5648/D2/T174] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:22:03,731 [P5648/D2/T201] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:22:19,653 [P5648/D2/T105] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:24:03,106 [P5648/D2/T28] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:28:39,276 [P5648/D2/T139] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:28:55,042 [P5648/D2/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:49:22,220 [P5648/D2/T203] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 00:51:34,579 [P5648/D2/T40] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 01:08:10,728 [P5648/D2/T151] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-09-04 01:08:10
+ 2020-09-05 02:26:07,399 [P5648/D2/T150] INFO  Umbraco.Core.MainDom - Stopping...
+ 2020-09-05 02:26:07,414 [P5648/D2/T150] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.ExamineStartup - Complete (took 10ms)
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2020-09-05 02:26:07,430 [P5648/D2/T152] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2020-09-05 02:26:07,430 [P5648/D2/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2020-09-05 02:26:07,430 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2020-09-05 02:26:07,430 [P5648/D2/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2020-09-05 02:26:07,430 [P5648/D2/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2020-09-05 02:26:07,446 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2020-09-05 02:26:07,446 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2020-09-05 02:26:07,446 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2020-09-05 02:26:07,446 [P5648/D2/T154] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2020-09-05 02:26:07,446 [P5648/D2/T150] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2020-09-05 02:26:07,446 [P5648/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2020-09-05 02:26:37,555 [P5648/D2/T157] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2020-09-05 02:30:25,537 [P3988/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.10.0 application starting on IP-208-109-15-4
+ 2020-09-05 02:30:25,553 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2020-09-05 02:30:25,553 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 3ms)
+ 2020-09-05 02:30:25,616 [P3988/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2020-09-05 02:30:25,616 [P3988/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2020-09-05 02:30:25,616 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 02:30:25,678 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 59ms)
+ 2020-09-05 02:30:25,678 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2020-09-05 02:30:25,678 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 2ms)
+ 2020-09-05 02:30:25,725 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 02:30:25,725 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-09-05 02:30:25,725 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2020-09-05 02:30:25,725 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
+ 2020-09-05 02:30:25,725 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 02:30:25,725 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 02:30:25,725 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2020-09-05 02:30:25,725 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2020-09-05 02:30:25,741 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 02:30:25,741 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-09-05 02:30:25,741 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2020-09-05 02:30:25,741 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2020-09-05 02:30:25,741 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 02:30:25,741 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 02:30:25,741 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2020-09-05 02:30:25,741 [P3988/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2020-09-05 02:30:27,662 [P3988/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2020-09-05 02:30:27,866 [P3988/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2020-09-05 02:30:28,006 [P3988/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2020-09-05 02:30:28,022 [P3988/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 4
+ 2020-09-05 02:30:28,037 [P3988/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2635ms)
+ 2020-09-05 02:30:28,412 [P3988/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://208.109.15.41:80/umbraco
+ 2020-09-05 02:30:28,412 [P3988/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://208.109.15.41:80/umbraco (UmbracoModule request)
+ 2020-09-05 02:30:28,725 [P3988/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2020-09-05 02:30:28,725 [P3988/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2020-09-05 02:30:29,428 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 02:30:29,428 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 02:30:29,428 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2020-09-05 02:30:29,428 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2020-09-05 02:30:32,022 [P3988/D2/T10] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\App_Data\Models\all.generated.cs(1613): error CS0542: 'RedirectPage': member names cannot be the same as their enclosing type
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels()
+ 2020-09-05 02:30:32,022 [P3988/D2/T10] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2020-09-05 02:30:32,381 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 02:30:32,381 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 02:30:32,381 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2020-09-05 02:30:32,381 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2020-09-05 02:31:28,803 [P3988/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-09-04 02:31:28
+ 2020-09-05 02:31:28,803 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 02:31:28,803 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 02:31:28,803 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2020-09-05 02:31:28,803 [P3988/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2020-09-05 03:00:26,213 [P3988/D2/T120] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.practinext.com:80/umbraco
+ 2020-09-05 03:00:26,213 [P3988/D2/T120] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.practinext.com:80/umbraco (UmbracoModule request)
+ 2020-09-05 03:00:26,822 [P3988/D2/T129] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 03:00:26,822 [P3988/D2/T129] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 03:00:26,822 [P3988/D2/T129] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2020-09-05 03:00:26,822 [P3988/D2/T129] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 1ms)
+ 2020-09-05 03:00:34,744 [P3988/D2/T146] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-09-05 03:06:09,617 [P3988/D2/T126] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 06:31:28,813 [P3988/D2/T98] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-09-04 06:31:28
+ 2020-09-05 09:16:11,970 [P3988/D2/T216] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 10:21:50,177 [P3988/D2/T186] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 10:21:50,177 [P3988/D2/T186] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 10:21:50,177 [P3988/D2/T186] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2020-09-05 10:21:50,193 [P3988/D2/T186] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2020-09-05 10:21:52,365 [P3988/D2/T106] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 10:21:52,365 [P3988/D2/T106] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 10:21:52,365 [P3988/D2/T106] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2020-09-05 10:21:52,365 [P3988/D2/T106] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 1ms)
+ 2020-09-05 10:22:39,942 [P3988/D2/T102] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 49.32.3.31
+ 2020-09-05 10:22:39,942 [P3988/D2/T102] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 49.32.3.31
+ 2020-09-05 10:22:43,661 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 10:22:43,661 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-09-05 10:22:43,661 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2020-09-05 10:22:43,661 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 0ms)
+ 2020-09-05 10:22:43,677 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 10:22:43,677 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 10:22:43,677 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2020-09-05 10:22:43,677 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2020-09-05 10:22:43,692 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 10:22:43,692 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 10:22:43,692 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2020-09-05 10:22:43,692 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2020-09-05 10:22:43,708 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 10:22:43,708 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 10:22:43,708 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2020-09-05 10:22:43,708 [P3988/D2/T239] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2020-09-05 10:23:02,505 [P3988/D2/T262] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.hcptalks.com:80/umbraco
+ 2020-09-05 10:23:02,505 [P3988/D2/T262] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.hcptalks.com:80/umbraco (UmbracoModule request)
+ 2020-09-05 10:25:17,894 [P3988/D2/T186] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 10:25:17,894 [P3988/D2/T186] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-09-05 10:25:17,910 [P3988/D2/T186] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2020-09-05 10:25:17,910 [P3988/D2/T186] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 1ms)
+ 2020-09-05 10:31:28,829 [P3988/D2/T116] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-09-04 10:31:28
+ 2020-09-05 13:58:50,977 [P3988/D2/T208] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 14:31:28,838 [P3988/D2/T149] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-09-04 14:31:28
+ 2020-09-05 15:27:06,909 [P3988/D2/T28] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-09-05 16:55:22,388 [P3988/D2/T217] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-09-05 18:31:28,848 [P3988/D2/T215] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-09-04 18:31:28
+ 2020-09-05 21:07:55,845 [P3988/D2/T86] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.medsurveys.in:80/umbraco
+ 2020-09-05 21:07:55,845 [P3988/D2/T86] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.medsurveys.in:80/umbraco (UmbracoModule request)
+ 2020-09-05 21:12:42,718 [P3988/D2/T32] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.medpolls.in:80/umbraco
+ 2020-09-05 21:12:42,718 [P3988/D2/T32] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.medpolls.in:80/umbraco (UmbracoModule request)
+ 2020-09-05 22:31:28,872 [P3988/D2/T225] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-09-04 22:31:28
+ 2020-09-05 23:26:45,146 [P3988/D2/T192] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-09-05 23:26:45,146 [P3988/D2/T192] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-09-05 23:26:45,146 [P3988/D2/T192] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2020-09-05 23:26:45,146 [P3988/D2/T192] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2020-09-05 23:44:11,763 [P3988/D2/T127] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-09-05 23:44:11,763 [P3988/D2/T127] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-09-05 23:45:03,591 [P3988/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Application Process' with Id '1115' has been published.
+ 2020-09-05 23:45:07,029 [P3988/D2/T126] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 183.87.108.197 has logged out
+ 2020-09-05 23:45:07,810 [P3988/D2/T126] INFO  umbraco.content - Save Xml to file...
+ 2020-09-05 23:45:07,810 [P3988/D2/T126] INFO  umbraco.content - Saved Xml to file.

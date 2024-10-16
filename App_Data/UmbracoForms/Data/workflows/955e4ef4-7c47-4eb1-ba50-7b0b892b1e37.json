@@ -1,0 +1,17 @@
+{
+  "id": "955e4ef4-7c47-4eb1-ba50-7b0b892b1e37",
+  "name": "Send template email to webadmin@ltfz.com",
+  "form": "de29102b-7dec-4c35-b226-c9c3bb042466",
+  "active": true,
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": "",
+    "Email": "surajjaiswar00000@gmail.com",
+    "SenderEmail": "webadmin@ltfz.com",
+    "ReplyToEmail": "",
+    "Subject": "The Form '{form_name}' was submitted"
+  },
+  "sortOrder": 1
+}

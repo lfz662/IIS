@@ -1,0 +1,61 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using LFZ_Logic;
+@{
+	Layout = "MasterPage.cshtml";
+	var currentPage = CurrentPage.Name.ToLower();
+}
+
+@section fullPage
+{
+<section id="content">
+  
+     @Html.CachedPartial("LFZOnPage/LFZPage",Model.Content, 3600,true)
+    @Html.Raw(Model.Content.GetPropertyValue("pageData"))
+   
+   @if(@currentPage != null)
+   {
+       if(@currentPage == "application process")
+       {
+            @Html.Partial("ApplyNow/applynow");
+       }
+   }
+    
+</section>
+}
+@section footerScripts
+{
+   @if(@currentPage != null)
+   {
+       if(@currentPage == "application process")
+       {
+    
+    <script>
+    getAllUrlParams(window.location.search);
+          function getAllUrlParams(url) {
+         
+          var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+            queryString = queryString.split('=')[1];
+            
+            if(queryString != null)
+            {
+                if(queryString == "succ")
+                {
+                    document.getElementById("ApplyNowFormresult").style.display = "block";
+                    document.getElementById("ApplyNowFormresult").innerHTML  = "<h3 style='color:#307C00'>Thank you</h3><p style='color:#307C00' > We have received your details.</p>";
+                }
+                else
+                {
+                    document.getElementById("ApplyNowFormresult").innerHTML  =  "<p style='color:#F57921'>Sorry, Please try again later </p>";
+                   document.getElementById("ApplyNowFormresult").style.display = "block";
+                }
+              
+                
+            }
+      }
+   </script>
+   <script src="/Scripts/jquery.validate.min.js"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+ }
+}
+}

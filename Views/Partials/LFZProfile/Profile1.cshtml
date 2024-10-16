@@ -1,0 +1,85 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+ <div class="boardDirectorsBx">
+                <div class="container">
+                    <h2 class="text-center" data-aos="fade-up" data-aos-duration="250" data-aos-offset="200">Board of Directors</h2>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="200">
+                        <ul class="directorsList" id="directorGallery">
+                             @{
+                             var boardOfDirectors = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("boardOfDirectorsList");
+                             if (boardOfDirectors != null && boardOfDirectors.Count() > 0)
+                              {
+                                 foreach (var field in boardOfDirectors)
+                                    {
+                                    var profileImmg = field.GetPropertyValue<IPublishedContent>("profilePicture");
+                                      <li>
+                                         <a href="#@field.GetPropertyValue("directorName")" class="fancyboxInline">
+                                             <div class="listWrap">
+                                                <img src="@profileImmg.Url" width="250" height="330" alt="" class="img-responsive profileImg">
+                                                <span class="imageFrame"></span>
+                                                <span class="listCaption">
+                                                    <span class="directorName">@field.GetPropertyValue("directorName") <strong>@field.GetPropertyValue("directorSurname")</strong></span>
+                                                    
+                                                </span>
+                                                <div class="clearfix"></div>
+                                                <span class="directorDesig">@field.GetPropertyValue("directorDesignation")</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    }
+                                }
+                             }
+                           
+                          
+                           
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <span class="textureLft"></span>
+                <span class="textureMid"></span>
+                <span class="textureRht"></span>
+            </div>
+            <!-- popup start -->
+            @{
+                 var boardOfDirectorsDesc = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("boardOfDirectorsList");
+                 if (boardOfDirectorsDesc != null && boardOfDirectorsDesc.Count() > 0)
+                 {
+                    foreach (var field1 in boardOfDirectorsDesc)
+                    {
+                        var profileImmg1 = field1.GetPropertyValue<IPublishedContent>("profilePicture");
+                        <div class="clientPopup" id="@field1.GetPropertyValue("directorName")" style="display:none;">
+                            <div class="clientPopupSkew">
+                                <div class="clientPopupCont">
+                                    <div class="col-md-4">
+                                        <div class="boardDirectorsBx">
+                                            <div class="listWrap">
+                                                <img src="@profileImmg1.Url" width="250" height="330" alt="" class="img-responsive profileImg">
+                                                <span class="imageFrame"></span>
+                                                <span class="listCaption">
+                                                    <span class="directorName">@field1.GetPropertyValue("directorName") <strong>@field1.GetPropertyValue("directorSurname")</strong></span>
+                                                    
+                                                </span>
+                                                <div class="clearfix"></div>
+                                                <span class="directorDesig" style="color:#333;">@field1.GetPropertyValue("directorDesignation")</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            @*<div class="clientLogoDesp"><h3>Lekki Port LFTZ Enterprise</h3>
+                                                <p>Developer and future opeartor of Lekki Port in Lagos Free Zone 
+                                                </p>
+                                                <a href="#" style="text-decoration: underline;">Visit website<a>
+                                            </div>*@
+                                            @field1.GetPropertyValue("directorDescription")
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                 }
+            }                  
+        

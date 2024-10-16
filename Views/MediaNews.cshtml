@@ -1,0 +1,28 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "MasterPage.cshtml";
+}
+@section fullPage
+{
+
+<section id="content">
+    @Html.Partial("MediaNews/Banner")
+    @Html.Partial("MediaNews/News")
+</section>
+ 
+  
+}
+@section footerScripts
+{
+<script type="text/javascript">
+$(function() {
+    $("#paginationContent").paginate({
+      perPage: 6,
+      containerTag: 'div',
+      paginationTag: 'ul',
+      itemTag: 'li',
+      linkTag: 'a'
+    });
+});
+</script>
+}

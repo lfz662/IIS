@@ -1,0 +1,121 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+	Layout = null;
+}
+
+@* the fun starts here *@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/media/1383/favicon.ico">
+
+@Html.Partial("SiteLayOut/LfzSeo")
+<!-- stylesheet -->
+<link href="@Url.Content("~/css/bootstrap.css")" rel="stylesheet">
+<link href="@Url.Content("~/css/jquery.fancybox.css")" rel="stylesheet">
+<link href="@Url.Content("~/css/timeline.min.css")" rel="stylesheet">
+<link href="@Url.Content("~/css/style.css?id=4")" rel="stylesheet">
+<link href="@Url.Content("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")" rel="stylesheet">
+@RenderSection("head", false)
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179383351-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179383351-1');
+</script>
+<style>
+  
+</style>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ 
+</head>
+<body>
+     
+    <div class="wrapper">
+       
+        <!--header start-->
+         @*<script type="text/javascript" src="@Url.Content("~/header.js")"></script>*@
+        @Html.Partial("SiteLayOut/Header")
+        <!--header end-->
+        
+        <!--content start-->
+         @RenderSection("fullPage", false)
+        <!--content end-->
+        
+        <!--footer start-->
+        @*<script type="text/javascript" src="@Url.Content("~/footer.js")"></script>*@
+        @Html.Partial("SiteLayOut/Footer")
+        <!--footer end-->
+        
+    </div>
+<div id="inline" style="display: none;"><iframe width="932" height="524" src="https://www.youtube.com/embed/a4WwEjdqBMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<!-- jQuery  --> 
+<script src="@Url.Content("~/js/jquery-3.4.1.min.js")"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="@Url.Content("~/js/bootstrap.min.js")"></script>
+<script src="@Url.Content("~/js/jquery.bxslider.min.js")"></script>
+<script src="@Url.Content("~/js/aos.js")"></script>
+<script src="@Url.Content("~/js/jquery.fancybox.js")"></script>
+<script src="@Url.Content("~/scripts/jquery.fancybox.min.js")"></script>
+<script src="@Url.Content("~/js/timeline.min.js")"></script> 
+<script src="@Url.Content("https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js")"></script>
+<script src="@Url.Content("~/js/custom.js")"></script>    
+<script src="@Url.Content("~/js/jquery.paginate.js")"></script>    
+   
+ @RenderSection("footerScripts", false)   
+ <script type="text/javascript">
+var http = false;
+	    if (navigator.appName == "Microsoft Internet Explorer") {
+	        http = new ActiveXObject("Microsoft.XMLHTTP");
+	    } else {
+	        http = new XMLHttpRequest();
+	    }
+  function hdsSearch() {
+         var searchText1=document.getElementById("txt_search").value;
+          //lets check for harmfull characters
+          var res = searchText1.substring(0, 1);
+         if(res == ">" || res == "<")
+         {
+            searchText1 = searchText1.replace(">","").replace("<","");
+         }
+         //end of handling harmfull characters
+	    url="https://lagosfreezone.com/getResult?SearchText="+ searchText1;
+	    //url="city.aspx";
+	    http.open("GET", url);
+	    http.onreadystatechange = function() {
+	        if (http.readyState == 4) {
+	           // alert(http.responseText);
+	            document.getElementById("search_res").innerHTML = http.responseText;
+                
+	        }
+	    }
+	    http.send(null);
+        if(!searchText1){
+            $("#search_res").hide();
+        }
+        else{
+            $("#search_res").show();
+        }
+    }
+    
+    function goAllResult() {
+     //console.log("enter");
+            var currentUrl = window.location.hostname; //returns the entire url
+            window.open('http://'+currentUrl + '/search?search=' + document.getElementById("txt_search").value,'_blank');
+}
+
+
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.0.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script>
+     
+</body>
+</html>

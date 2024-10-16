@@ -1,0 +1,60 @@
+﻿@inherits UmbracoViewPage<ContactUsModel>
+@using LFZ_Logic.Models;
+<div id="ContactUsFormresult"  style="display:none;text-align:center;margin-top:30px;margin-bottom:15px;"></div>
+@using(Html.BeginUmbracoForm("SubmitContactUsForm","ContactUs", FormMethod.Post, new {@id="ContactUsForm" ,enctype="multipart/form-data"}))  
+{ 
+ @Html.AntiForgeryToken()
+@*<form data-aos="fade-up" data-aos-duration="1000">*@
+                        <div class="col-md-6">
+                            <div class="row padRht">
+                                <ul class="careersForm">
+                                    
+                                    <li>
+                                         @Html.TextBoxFor(m => m.Name, new { @class = "textbox",onkeyup = "cngName()",onblur="cngName()", @placeholder = "Name" ,@id="Name", @required = true, maxlength="100"})
+                                         @*@Html.ValidationMessageFor(m => m.FirstName)*@
+                                         <span class="field-validation-error" id="pName"></span>
+                                    </li>
+                                    
+                                    <li>
+                                        @Html.TextBoxFor(m=>m.EmailId,new { @class="textbox" ,onkeyup = "cngEmailId()",onblur="cngEmailId()",@placeholder="Email",@id="EmailId", @required = true, maxlength="100"})
+                                        @*@Html.ValidationMessageFor(m => m.Email)*@
+                                        <span class="field-validation-error" id="pEmailId"></span>
+                                    </li>
+                                    <li>
+                                         @Html.TextBoxFor(m => m.MobileNumber, new { @class = "textbox",onkeyup = "cngMobileNumber()",onblur="cngMobileNumber()", @placeholder = "Mobile Number",@id="MobileNumber", @required = true,@number=true , maxlength="10"})
+                                        @* @Html.ValidationMessageFor(m => m.MobileNumber)*@
+                                        <span class="field-validation-error" id="pMobileNumber"></span>
+                                    </li>
+                                     <li>
+                                         <span id="g-captcha1"></span>
+                                        <div class="g-recaptcha" data-callback="submitUserForm" data-sitekey="6LdF0zsbAAAAAMwK-sZwa-obXYgozLbN4da76d8Q"></div>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row padLft">
+                                <ul class="careersForm">
+                                    <li>
+                                        @Html.TextBoxFor(m=>m.EnquiryFor,new { @class="textbox" ,onkeyup = "cngEnquiryFor()",onblur="cngEnquiryFor()",@placeholder="Enquiry For",@id="EnquiryFor", @required = true, maxlength="500"})
+                                        @*@Html.ValidationMessageFor(m => m.EnquiryFor)*@
+                                        <span class="field-validation-error" id="pEnquiryFor"></span>
+                                    </li>
+                                    <li>
+                                        @Html.TextBoxFor(m=>m.Message,new { @class="textbox" ,onkeyup = "cngMessage()",onblur="cngMessage()",@placeholder="Additional Information",@id="Message", @required = true, maxlength="2000"})
+                                        @*@Html.ValidationMessageFor(m => m.Message)*@
+                                        <span class="field-validation-error" id="pMessage"></span>
+                                    </li>
+                                   
+                                    <li>
+                                        <a type="submit" id="btnSubmitContUsForm" onclick="javascript:return FnValidate();" class="submitBut" value="Validate Subcription" >Submit</a> 
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    @*</form>*@
+                   
+}                    

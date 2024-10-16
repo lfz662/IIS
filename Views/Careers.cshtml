@@ -1,0 +1,228 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using LFZ_Logic.Models;
+
+@{
+	Layout = "MasterPage.cshtml";
+}
+@section fullPage
+{
+ <section id="content">
+     @if (!Model.GetPropertyValue<bool>("isBanner"))
+     {
+     <div class="bannerWithTexture">
+                
+                <div class="innerTopBanner">
+                    <!-- desktop image -->
+                    <div class="innerTopBannerImgDesk hidden-sm hidden-xs" style="background-image: url(@((Model.GetPropertyValue<IPublishedContent>("bannerBackgroundImage")).Url));"></div>
+
+                    <!-- mobile image -->
+                    <div class="innerTopBannerImgMob visible-sm visible-xs" style="background-image: url(@((Model.GetPropertyValue<IPublishedContent>("bannerMobileImage")).Url));"></div>
+
+                    <!-- video  -->
+                    <!-- <video width="320" height="240" poster="images/videoPoster.png" autoplay muted loop playsinline class="hidden-sm hidden-xs">
+                        <source src="video/lfz_4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> -->
+
+                   @if (Model.HasValue("bannerTitle"))
+                      {
+                        <h1 class="pageTitle" data-aos="fade-down" data-aos-duration="1000">@(@Html.Raw(!string.IsNullOrEmpty(Model.GetPropertyValue("bannerTitle").ToString()) ? Model.GetPropertyValue("bannerTitle") : ""))</h1>
+                        <!--<h1 class="pageTitle" data-aos="fade-down" data-aos-duration="1000">@(!string.IsNullOrEmpty(Model.GetPropertyValue("bannerTitle").ToString()) ? Model.GetPropertyValue("bannerTitle") : "")</h1>-->
+                      }  
+                    <div class="bredcrumb" data-aos="fade-right" data-aos-duration="1000">
+                         @Umbraco.RenderMacro("BreadCum")
+                    </div>
+                </div>
+
+
+                @if (Model.HasValue("bannerDescription"))
+                {
+                    <div class="container">
+                        <div class="bannerBtmTxt" data-aos="fade-right" data-aos-duration="1000">
+                            @Html.Raw(@Model.GetPropertyValue("bannerDescription"))
+                        </div>
+                    </div>
+                }
+
+        </div>
+    }
+            <div class="container">
+
+                <div class="careersBx">
+                    <p class="text-center" data-aos="fade-up" data-aos-duration="1000">Strengthened by our core values of Trust, Respect, Commitment, Courage and Humility we strive to create endless opportunities for growth and development. We believe that a brighter tomorrow will become a reality, through the creativity of talented minds like yours. So, join us and together let us create a world of endless possibilities.</p>
+                    <span class="headingBg" data-aos="fade-up" data-aos-duration="1000">Apply now to kick-start your career with LFZ</span>
+                    @{ Html.RenderAction("RenderCareersForm", "Careers");}
+                    @*@Html.Partial("Careers/careers")*@
+                </div>
+
+            </div>
+ </section>
+}
+@section footerScripts
+{
+<script>
+  function FnValidate()
+    {
+    var sFlag = true;
+           
+          if (document.getElementById("Name").value == "") {
+            
+                document.getElementById("pName").innerHTML =  "Please enter name.";
+                document.getElementById("Name").focus();
+                 sFlag = false;
+                return;
+           }
+          if (document.getElementById("MobileNumber").value == "") {
+            
+                document.getElementById("pMobileNumber").innerHTML =  "Please enter your mobile number.";
+                document.getElementById("MobileNumber").focus();
+                 sFlag = false;
+                return;
+           }
+           else
+            {   
+                    if (isNaN(document.getElementById("MobileNumber").value.replace(/^\s+/g, '').replace(/\s+$/g, '')) == true) {
+                         document.getElementById("pMobileNumber").innerHTML =  "Please enter valid mobile number.";
+                         document.getElementById("MobileNumber").focus();
+                        sFlag = false;
+                        return;
+                    }
+                    else {
+        
+                        if (document.getElementById("MobileNumber").value.length != 10) {
+                            document.getElementById("pMobileNumber").innerHTML =  "Please enter valid 10 digit mobile number.";
+                            document.getElementById("MobileNumber").focus();
+                             sFlag = false;
+                            return;
+                        }
+                    }
+                    
+            }
+           if (document.getElementById("EmailId").value == "") {
+            
+                document.getElementById("pEmailId").innerHTML =  "Please enter your email-Id.";
+                document.getElementById("EmailId").focus();
+                 sFlag = false;
+                return;
+           }
+           else
+           {
+                    var reg = /^([A-Za-z0-9_\-\.])+\@@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        
+                    if (reg.test(document.getElementById("EmailId").value) == false) {
+                        document.getElementById("pEmailId").innerHTML = 'Please enter a valid e-mail address';
+                        document.getElementById("EmailId").focus();
+                        sFlag = false;
+                        return ;
+                    }
+            }
+            
+           if (document.getElementById("Areaofinterest").value == "") {
+            
+                document.getElementById("pAreaofinterest").innerHTML =  "Please enter area of interest.";
+                document.getElementById("Areaofinterest").focus();
+                 sFlag = false;
+                return;
+           }
+           if (document.getElementById("EducationalBackground").value == "") {
+            
+                document.getElementById("pEducationalBackground").innerHTML =  "Please enter educational background.";
+                document.getElementById("EducationalBackground").focus();
+                 sFlag = false;
+                return;
+           }
+           if (document.getElementById("UploadFile").value == "") {
+                //document.getElementById("pUploadFile").innerHTML = "Please select upload file.";
+                document.getElementById("pUploadFile").className = "field-validation-error p_mer";
+                document.getElementById("UploadFile").focus();
+               sFlag = false; 
+               return ;
+            }
+           @* else if (document.getElementById("UploadFile").value != "") {
+                var fup = document.getElementById('UploadFile');
+               var fileName = fup.value;
+               var ext = fileName.substring(fileName.lastIndexOf('.') + 1).toLowerCase();
+               ext = ext.toLowerCase();
+               if (ext == "doc" || ext == "docx" || ext == "pdf" || ext == "ppt" || ext == "pptx" ) 
+               {
+                   if (fup.files.item(0).size > 2097152) 
+                   {
+                       //alert("Please upload your resume only doc,docx,pdf,html, rtf,txt and size less than 2MB");
+                        document.getElementById("pUploadFile").innerHTML = "Please upload your file only doc,docx,pdf,ppt, pptx and size less than 2MB";
+                        document.getElementById("UploadFile").focus();
+                        sFlag = false;
+                        return ;
+                   }
+                   
+               }
+               else 
+               {
+                    document.getElementById("pUploadFile").innerHTML = "Please upload your file only doc,docx,pdf,ppt, pptx and size less than 2MB";
+                    document.getElementById("UploadFile").focus();
+                    sFlag = false;
+                    return ;
+               }
+            }*@
+             var response = grecaptcha.getResponse();
+            
+    if(response.length == 0) {
+        document.getElementById('g-captcha2').innerHTML = '<span style="color:red;">This field is required.</span>';
+       sFlag = false;
+    }
+        if(sFlag)
+           {
+          
+                document.getElementById("CareersForm").submit();
+           }
+    }
+    function cngName()
+    {
+        document.getElementById("pName").innerHTML = "";
+    }
+    function cngMobileNumber()
+    {
+        document.getElementById("pMobileNumber").innerHTML = "";
+    }
+    function cngEmailId()
+    {
+        document.getElementById("pEmailId").innerHTML = "";
+    }
+    function cngAreaofinterest()
+    {
+        document.getElementById("pAreaofinterest").innerHTML = "";
+    }
+    function cngEducationalBackground()
+    {
+        document.getElementById("pEducationalBackground").innerHTML = "";
+    }
+    
+    
+    </script>
+    <script>
+    getAllUrlParams(window.location.search);
+          function getAllUrlParams(url) {
+         
+          var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+            queryString = queryString.split('=')[1];
+            
+            if(queryString != null)
+            {
+                if(queryString == "succ")
+                {
+                    document.getElementById("CareersFormresult").style.display = "block";
+                    document.getElementById("CareersFormresult").innerHTML  = "<h3 style='color:#307C00'>Thank you</h3><p style='color:#307C00' > We have received your entry.</p>";
+                }
+                else
+                {
+                    document.getElementById("CareersFormresult").innerHTML  =  "<p style='color:#F57921'>Sorry, Please try again letter </p>";
+                   document.getElementById("CareersFormresult").style.display = "block";
+                }
+              
+                
+            }
+      }
+</script>
+   <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+}

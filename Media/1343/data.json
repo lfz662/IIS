@@ -1,0 +1,792 @@
+	[
+	{
+		"id": "F1",
+		"cluster": "F1-1",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 2 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F1",
+		"cluster": "F1-3",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 2 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F1",
+		"cluster": "F1-2",
+		"name": "",
+		"data": "Industry: Food & Beverages<br>Area: 4 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F2",
+		"cluster": "F2-1",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F2",
+		"cluster": "F2-2",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F2",
+		"cluster": "F2-3",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F3",
+		"cluster": "F3-1",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F3",
+		"cluster": "F3-2",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F3",
+		"cluster": "F3-3",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F4",
+		"cluster": "F4-1",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 6 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F4",
+		"cluster": "F4-2",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 4 ha<br>Ownership: Insignia (EXTG)",
+		"category": ["Industrial", "Only Phase One"]
+	},
+	{
+		"id": "F4",
+		"cluster": "F4-3",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 6 ha<br>Ownership: Raffles (EXTG)",
+		"category": ["Industrial", "Only Phase One"]
+	},
+	{
+		"id": "F4",
+		"cluster": "F4-4",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 5.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F4",
+		"cluster": "F4-5",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 6 ha<br>Ownership: Kellogg's (EXTG)",
+		"category": ["Industrial", "Only Phase One"]
+	},
+	{
+		"id": "F5",
+		"cluster": "F5-1",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 4 ha<br>Ownership: TG Arla (EXTG)",
+		"category": ["Industrial", "Only Phase One"]
+	},
+	{
+		"id": "F5",
+		"cluster": "F5-2",
+		"name": "Food & Beverages",
+		"data": "Industry: Food & Beverages<br>Area: 4.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-1",
+		"data": "Industry: Food & Beverages<br>Area: 4 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-2",
+		"data": "Industry: Food & Beverages<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-3",
+		"data": "Industry: Food & Beverages<br>Area: 5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-4",
+		"data": "Industry: Food & Beverages<br>Area: 5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-5",
+		"data": "Industry: Food & Beverages<br>Area: 2 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-6",
+		"data": "Industry: Food & Beverages<br>Area: 0.7 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-7",
+		"data": "Industry: Food & Beverages<br>Area: 0.8 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-8",
+		"data": "Industry: Food & Beverages<br>Area: 0.7 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-9",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-10",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-11",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-12",
+		"data": "Industry: Food & Beverages<br>Area: 0.7 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-13",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-14",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-15",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-16",
+		"data": "Industry: Food & Beverages<br>Area: 0.7 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-17",
+		"data": "Industry: Food & Beverages<br>Area: 0.8 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F6",
+		"cluster": "F6-18",
+		"data": "Industry: Food & Beverages<br>Area: 2 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F7",
+		"cluster": "F7-1",
+		"data": "Industry: Food & Beverages<br>Area: 2.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F7",
+		"cluster": "F7-2",
+		"data": "Industry: Food & Beverages<br>Area: 2.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F7",
+		"cluster": "F7-3",
+		"data": "Industry: Food & Beverages<br>Area: 2.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F7",
+		"cluster": "F7-4",
+		"data": "Industry: Food & Beverages<br>Area: 2.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F7",
+		"cluster": "F7-5",
+		"data": "Industry: Food & Beverages<br>Area: 2.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F7",
+		"cluster": "F7-6",
+		"data": "Industry: Food & Beverages<br>Area: 2.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "F8",
+		"cluster": "F8-1",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "F8",
+		"cluster": "F8-2",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "F8",
+		"cluster": "F8-3",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "F8",
+		"cluster": "F8-4",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "F9",
+		"cluster": "F9-1",
+		"data": "Industry: Food & Beverages<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "P1",
+		"cluster": "P1-1",
+		"data": "Industry: Pharmaceuticals<br>Area: 4 ha<br>Ownership: TG Colgate Phase I (Prop)",
+		"category": ["Industrial", "Only Phase One"]
+	},
+	{
+		"id": "P1",
+		"cluster": "P1-2",
+		"data": "Industry: Pharmaceuticals<br>Area: 4 ha<br>Ownership: TG Colgate Phase II (Prop)",
+		"category": ["Industrial", "Only Phase One"]
+	},
+	{
+		"id": "P1",
+		"cluster": "P1-3",
+		"data": "Industry: Pharmaceuticals<br>Area: 5.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "P2",
+		"cluster": "P2-1",
+		"data": "Industry: Pharmaceuticals<br>Area: 4.5 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "P2",
+		"cluster": "P2-2",
+		"data": "Industry: Pharmaceuticals<br>Area: 7.3 ha<br>Ownership: Existing Development",
+		"category": ["Industrial", "Only Phase One"]
+	},
+	{
+		"id": "C1",
+		"cluster": "C1-1",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C2",
+		"cluster": "C2-1",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C3",
+		"cluster": "C3-1",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "C3",
+		"cluster": "C3-2",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "C3",
+		"cluster": "C3-3",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C3",
+		"cluster": "C3-4",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C3",
+		"cluster": "C3-5",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C3",
+		"cluster": "C3-6",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C3",
+		"cluster": "C3-7",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C3",
+		"cluster": "C3-8",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C4",
+		"cluster": "C4-1",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "C4",
+		"cluster": "C4-2",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C5",
+		"cluster": "C5-1",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: 4 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "C5",
+		"cluster": "C5-2",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: 4 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "C5",
+		"cluster": "C5-3",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: 4 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "C5",
+		"cluster": "C5-4",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: 4 ha<br>Unoccupied",
+		"category": ["Industrial", "Only Phase One", "Available"]
+	},
+	{
+		"id": "C6",
+		"cluster": "C6-1",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C6",
+		"cluster": "C6-2",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C6",
+		"cluster": "C6-3",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C6",
+		"cluster": "C6-4",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "C6",
+		"cluster": "C6-5",
+		"data": "Industry: Chemicals & Downstream Oils<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "I",
+		"cluster": "I1",
+		"data": "Future Industry: Industrial Development (Future)<br>Area: 25 ha",
+		"category": ["Industrial"]
+	},
+	{
+		"id": "A",
+		"cluster": "A-1",
+		"data": "Industry: Paper<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "N1",
+		"cluster": "N1-1",
+		"data": "Industry: Non Metallic Minerals<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "N2",
+		"cluster": "N2-1",
+		"data": "Industry: Non Metallic Minerals<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "N3",
+		"cluster": "N3-1",
+		"data": "Industry: Non Metallic Minerals<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "N4",
+		"cluster": "N4-1",
+		"data": "Industry: Non Metallic Minerals<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E1",
+		"cluster": "E1-1",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E1",
+		"cluster": "E1-2",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E1",
+		"cluster": "E1-3",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E1",
+		"cluster": "E1-4",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E1",
+		"cluster": "E1-5",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E1",
+		"cluster": "E1-6",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E1",
+		"cluster": "E1-7",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E1",
+		"cluster": "E1-8",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E2",
+		"cluster": "E2-1",
+		"data": "Industry: Engineering<br>Area: 6 ha<br>Ownership: Prefabrication Factory",
+		"category": ["Industrial", "Only Phase One"]
+	},
+	{
+		"id": "E3",
+		"cluster": "E3-1",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E3",
+		"cluster": "E3-2",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E3",
+		"cluster": "E3-3",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E3",
+		"cluster": "E3-4",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "E3",
+		"cluster": "E3-5",
+		"data": "Industry: Engineering<br>Area: -<br>Unoccupied",
+		"category": ["Industrial", "Available"]
+	},
+	{
+		"id": "L1",
+		"cluster": "L1-1",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L1",
+		"cluster": "L1-2",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L1",
+		"cluster": "L1-3",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L1",
+		"cluster": "L1-4",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L2",
+		"cluster": "L2",
+		"data": "Logistics: Inland Port Logistics<br>Area: 38 ha",
+		"category": ["Logistics"]
+	},
+	{
+		"id": "L3",
+		"cluster": "L3",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Only Phase One", "Available"]
+	},
+	{
+		"id": "L4",
+		"cluster": "L4",
+		"data": "Logistics: Warehouse<br>Area: 2 ha",
+		"category": ["Logistics", "Only Phase One"]
+	},
+	{
+		"id": "L5",
+		"cluster": "L5",
+		"data": "Logistics<br>Area: 2 ha",
+		"category": ["Logistics", "Only Phase One", "Available"]
+	},
+	{
+		"id": "L6",
+		"cluster": "L6",
+		"data": "Logistics<br>Area: 3 ha",
+		"category": ["Logistics", "Only Phase One", "Available"]
+	},
+	{
+		"id": "L7",
+		"cluster": "L7",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L9",
+		"cluster": "L9",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L8",
+		"cluster": "L8",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L10",
+		"cluster": "L10",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L11",
+		"cluster": "L11",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L12",
+		"cluster": "L12",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "L13",
+		"cluster": "L13",
+		"data": "Logistics<br>Area: -",
+		"category": ["Logistics", "Available"]
+	},
+	{
+		"id": "M1",
+		"cluster": "M1",
+		"data": "Mixed Use<br>Area: 9 ha<br>Ownership: Mixed Use",
+		"category": ["Mixed Use", "Only Phase One"]
+	},
+	{
+		"id": "M2",
+		"cluster": "M2",
+		"data": "Mixed Use (EXTG)<br>Area: 16.3 ha",
+		"category": ["Mixed Use", "Only Phase One"]
+	},
+	{
+		"id": "M3",
+		"cluster": "M3",
+		"data": "Mixed Use (Future) & Buffer<br>Area: 21 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M4",
+		"cluster": "M4",
+		"data": "Commercial<br>Area: 2.4 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M5",
+		"cluster": "M5",
+		"data": "Commercial<br>Area: 1.3 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M6",
+		"cluster": "M6",
+		"data": "Commercial<br>Area: 3.4 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M7",
+		"cluster": "M7",
+		"data": "Commercial<br>Area: 3 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M8",
+		"cluster": "M8",
+		"data": "Mixed Use: Civic / Community<br>Area: 3 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M9",
+		"cluster": "M9",
+		"data": "Commercial<br>Area: 0.7 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M10",
+		"cluster": "M10",
+		"data": "Commercial<br>Area: 1.6 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M20",
+		"cluster": "M20",
+		"data": "Commercial<br>Area: 0.7 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M11",
+		"cluster": "M11",
+		"data": "Commercial<br>Area: 1.6 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M12",
+		"cluster": "M12",
+		"data": "Commercial<br>Area: 1.2 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M13",
+		"cluster": "M13",
+		"data": "Mixed Use: Civic / Community<br>Area: 2.9 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M14",
+		"cluster": "M14",
+		"data": "Residential (Apartment)<br>Area: 1.6 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M15",
+		"cluster": "M15",
+		"data": "Residential (Apartment)<br>Area: 1.6 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M16",
+		"cluster": "M16",
+		"data": "Residential (Landed / Villa)<br>Area: 14.6 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "M17",
+		"cluster": "M17",
+		"data": "Residential (Landed / Villa)<br>Area: 13.2 ha",
+		"category": ["Mixed Use"]
+	},
+	/*{
+		"id": "M12_1_",
+		"cluster": "M12_1_",
+		"data": "Mixed Use: Civic / Community<br>Area: 1.2 ha",
+		"category": ["Mixed Use"]
+	},*/
+	{
+		"id": "civic1",
+		"cluster": "civic1",
+		"data": "Mixed Use: Civic / Community<br>Area: 1.5 ha",
+		"category": ["Mixed Use"]
+	},
+	{
+		"id": "L100",
+		"cluster": "L100",
+		"data": "Logistics<br>Area: 3 ha<br>Unoccupied",
+		"category": ["Logistics", "Only Phase One", "Available"]
+	},
+	{
+		"id": "l20",
+		"cluster": "l20",
+		"data": "Logistics<br>Area: 2 ha<br>Unoccupied",
+		"category": ["Logistics", "Only Phase One", "Available"]
+	}
+]

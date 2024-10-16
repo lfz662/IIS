@@ -1,0 +1,419 @@
+﻿ 2020-08-24 00:00:46,387 [P8036/D2/T124] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Site Layout' with Id '1155' has been published.
+ 2020-08-24 00:00:50,656 [P8036/D2/T164] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 00:00:50,656 [P8036/D2/T164] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 00:01:20,153 [P8036/D2/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Site Layout' with Id '1155' has been published.
+ 2020-08-24 00:01:24,231 [P8036/D2/T140] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 00:01:24,231 [P8036/D2/T140] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 00:01:51,199 [P8036/D2/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Site Layout' with Id '1155' has been published.
+ 2020-08-24 00:01:55,293 [P8036/D2/T164] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 00:01:55,324 [P8036/D2/T164] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 00:05:22,885 [P8036/D2/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Site Layout' with Id '1155' has been published.
+ 2020-08-24 00:05:26,948 [P8036/D2/T166] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 00:05:26,979 [P8036/D2/T166] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 00:08:22,790 [P8036/D2/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Site Layout' with Id '1155' has been published.
+ 2020-08-24 00:08:26,884 [P8036/D2/T187] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 00:08:26,915 [P8036/D2/T187] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 00:09:42,821 [P8036/D2/T226] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Site Layout' with Id '1155' has been published.
+ 2020-08-24 00:09:46,884 [P8036/D2/T162] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 00:09:46,884 [P8036/D2/T162] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 00:30:05,547 [P8036/D2/T237] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://127.0.0.1:80/umbraco
+ 2020-08-24 00:30:05,547 [P8036/D2/T237] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://127.0.0.1:80/umbraco (UmbracoModule request)
+ 2020-08-24 03:17:34,367 [P8036/D2/T197] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 106.193.140.61
+ 2020-08-24 03:17:34,367 [P8036/D2/T197] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 106.193.140.61
+ 2020-08-24 03:18:46,835 [P8036/D2/T61] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-23 03:18:46
+ 2020-08-24 03:27:32,878 [P8036/D2/T54] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 106.193.140.61 has logged out
+ 2020-08-24 04:27:43,184 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2020-08-24 04:27:43,197 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2020-08-24 04:27:43,197 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2020-08-24 04:27:43,197 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2020-08-24 04:27:43,197 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2020-08-24 04:27:43,197 [P8036/D2/T104] INFO  Umbraco.Core.MainDom - Stopping...
+ 2020-08-24 04:27:43,197 [P8036/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2020-08-24 04:27:43,212 [P8036/D2/T104] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Web.ExamineStartup - Complete (took 19ms)
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2020-08-24 04:27:43,228 [P8036/D2/T108] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2020-08-24 04:27:43,228 [P8036/D2/T131] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2020-08-24 04:27:43,228 [P8036/D2/T108] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2020-08-24 04:27:43,228 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2020-08-24 04:27:43,228 [P8036/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2020-08-24 04:27:43,243 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2020-08-24 04:27:43,243 [P8036/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2020-08-24 04:27:43,243 [P8036/D2/T103] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2020-08-24 04:28:13,306 [P8036/D2/T113] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2020-08-24 04:28:54,571 [P4064/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.10.0 application starting on IP-208-109-15-4
+ 2020-08-24 04:28:54,571 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2020-08-24 04:28:54,588 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2020-08-24 04:28:54,634 [P4064/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2020-08-24 04:28:54,634 [P4064/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2020-08-24 04:28:54,649 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:28:54,696 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 58ms)
+ 2020-08-24 04:28:54,696 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2020-08-24 04:28:54,712 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 2ms)
+ 2020-08-24 04:28:54,743 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:28:54,743 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-08-24 04:28:54,743 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2020-08-24 04:28:54,743 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
+ 2020-08-24 04:28:54,743 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:28:54,743 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:28:54,743 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2020-08-24 04:28:54,743 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2020-08-24 04:28:54,759 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:28:54,759 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-08-24 04:28:54,759 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2020-08-24 04:28:54,759 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2020-08-24 04:28:54,759 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:28:54,759 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:28:54,759 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2020-08-24 04:28:54,759 [P4064/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2020-08-24 04:28:57,196 [P4064/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2020-08-24 04:28:57,399 [P4064/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2020-08-24 04:28:57,540 [P4064/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2020-08-24 04:28:57,540 [P4064/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 4
+ 2020-08-24 04:28:57,587 [P4064/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3116ms)
+ 2020-08-24 04:28:58,008 [P4064/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://208.109.15.41:80/umbraco
+ 2020-08-24 04:28:58,008 [P4064/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://208.109.15.41:80/umbraco (UmbracoModule request)
+ 2020-08-24 04:28:58,352 [P4064/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2020-08-24 04:28:58,352 [P4064/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2020-08-24 04:28:58,915 [P4064/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:28:58,915 [P4064/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:28:58,915 [P4064/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2020-08-24 04:28:58,915 [P4064/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2020-08-24 04:29:01,977 [P4064/D2/T11] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\App_Data\Models\all.generated.cs(1613): error CS0542: 'RedirectPage': member names cannot be the same as their enclosing type
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels()
+ 2020-08-24 04:29:01,977 [P4064/D2/T11] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2020-08-24 04:29:02,337 [P4064/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:29:02,337 [P4064/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:29:02,337 [P4064/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2020-08-24 04:29:02,337 [P4064/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2020-08-24 04:29:58,383 [P4064/D2/T19] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:29:58,383 [P4064/D2/T19] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:29:58,383 [P4064/D2/T19] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2020-08-24 04:29:58,383 [P4064/D2/T19] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2020-08-24 04:29:58,399 [P4064/D2/T10] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-23 04:29:58
+ 2020-08-24 04:44:29,221 [P4064/D2/T89] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 04:44:40,095 [P4064/D2/T87] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:44:40,095 [P4064/D2/T87] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:44:40,095 [P4064/D2/T87] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2020-08-24 04:44:40,095 [P4064/D2/T87] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2020-08-24 04:44:41,330 [P4064/D2/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:44:41,330 [P4064/D2/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:44:41,330 [P4064/D2/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2020-08-24 04:44:41,330 [P4064/D2/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2020-08-24 04:44:49,705 [P4064/D2/T87] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 182.59.233.68
+ 2020-08-24 04:44:49,705 [P4064/D2/T87] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 182.59.233.68
+ 2020-08-24 04:44:53,017 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:44:53,017 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:44:53,017 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2020-08-24 04:44:53,017 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 0ms)
+ 2020-08-24 04:44:53,049 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:44:53,049 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:44:53,049 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2020-08-24 04:44:53,049 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2020-08-24 04:44:53,049 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:44:53,049 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:44:53,049 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2020-08-24 04:44:53,049 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2020-08-24 04:44:53,064 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:44:53,064 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:44:53,064 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2020-08-24 04:44:53,064 [P4064/D2/T89] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2020-08-24 04:48:49,328 [P4064/D2/T96] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:48:49,328 [P4064/D2/T96] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:48:49,328 [P4064/D2/T96] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2020-08-24 04:48:49,328 [P4064/D2/T96] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 1ms)
+ 2020-08-24 04:54:08,716 [P4064/D2/T102] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 04:54:08,716 [P4064/D2/T102] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 04:54:08,716 [P4064/D2/T102] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2020-08-24 04:54:08,716 [P4064/D2/T102] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 1ms)
+ 2020-08-24 04:58:20,949 [P4064/D2/T89] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 05:33:42,684 [P4064/D2/T43] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 182.59.233.68
+ 2020-08-24 05:33:42,684 [P4064/D2/T43] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 182.59.233.68
+ 2020-08-24 05:53:04,160 [P4064/D2/T27] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 182.59.233.68 has logged out
+ 2020-08-24 06:19:29,103 [P4064/D2/T75] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 06:34:49,721 [P4064/D2/T84] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 06:40:32,422 [P4064/D2/T98] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 06:54:31,963 [P4064/D2/T24] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.practinext.com:80/umbraco
+ 2020-08-24 06:54:31,979 [P4064/D2/T24] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.practinext.com:80/umbraco (UmbracoModule request)
+ 2020-08-24 06:54:39,244 [P4064/D2/T24] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-24 08:29:58,406 [P4064/D2/T243] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-23 08:29:58
+ 2020-08-24 08:42:30,104 [P4064/D2/T207] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-24 09:13:07,965 [P4064/D2/T140] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 182.59.223.168
+ 2020-08-24 09:13:07,965 [P4064/D2/T140] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 182.59.223.168
+ 2020-08-24 09:17:54,619 [P4064/D2/T151] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 09:17:54,619 [P4064/D2/T151] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 09:17:54,619 [P4064/D2/T151] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2020-08-24 09:17:54,635 [P4064/D2/T151] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 10ms)
+ 2020-08-24 09:47:58,749 [P4064/D2/T259] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 10:00:35,291 [P4064/D2/T150] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 182.59.223.168 has logged out
+ 2020-08-24 10:05:23,257 [P4064/D2/T128] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 182.59.223.168
+ 2020-08-24 10:05:23,257 [P4064/D2/T128] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 182.59.223.168
+ 2020-08-24 10:09:17,865 [P4064/D2/T147] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 182.59.223.168 has logged out
+ 2020-08-24 10:33:04,606 [P4064/D2/T226] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 12:29:58,440 [P4064/D2/T247] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-23 12:29:58
+ 2020-08-24 14:54:34,065 [P4064/D2/T35] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 15:41:13,702 [P4064/D2/T237] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-24 16:29:58,446 [P4064/D2/T190] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-23 16:29:58
+ 2020-08-24 16:30:55,227 [P4064/D2/T169] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-24 20:29:58,455 [P4064/D2/T240] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-23 20:29:58
+ 2020-08-24 20:37:30,217 [P4064/D2/T217] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 20:47:30,229 [P4064/D2/T216] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 21:01:33,083 [P4064/D2/T151] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.medsurveys.in:80/umbraco
+ 2020-08-24 21:01:33,099 [P4064/D2/T151] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.medsurveys.in:80/umbraco (UmbracoModule request)
+ 2020-08-24 21:08:12,595 [P4064/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-24 21:21:02,855 [P4064/D2/T218] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 182.59.207.125
+ 2020-08-24 21:21:02,855 [P4064/D2/T218] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 182.59.207.125
+ 2020-08-24 21:29:08,117 [P4064/D2/T122] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 182.59.207.125 has logged out
+ 2020-08-24 21:32:53,881 [P4064/D2/T162] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 182.59.207.125
+ 2020-08-24 21:32:53,897 [P4064/D2/T162] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 182.59.207.125
+ 2020-08-24 21:35:56,927 [P4064/D2/T50] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 182.59.207.125 has logged out
+ 2020-08-24 22:59:03,628 [P4064/D2/T98] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 182.59.207.125
+ 2020-08-24 22:59:03,628 [P4064/D2/T98] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 182.59.207.125
+ 2020-08-24 23:10:13,090 [P4064/D2/T238] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\Views\Partials\Gallery\Images.cshtml(43): error CS0128: A local variable named 'galleryImage' is already defined in this scope
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at ASP._Page_Views_Gallery_cshtml.<Execute>b__0() in c:\inetpub\wwwroot\lftzweb_umb\Views\Gallery.cshtml:line 10
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderSection>b__5(TextWriter tw)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views_MasterPage_cshtml.Execute() in c:\inetpub\wwwroot\lftzweb_umb\Views\MasterPage.cshtml:line 33
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2020-08-24 23:11:29,777 [P4064/D2/T121] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 182.59.207.125 has logged out
+ 2020-08-24 23:20:23,087 [P4064/D2/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 182.56.112.4
+ 2020-08-24 23:20:23,087 [P4064/D2/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 182.56.112.4
+ 2020-08-24 23:30:56,457 [P4064/D2/T159] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2020-08-24 23:33:33,331 [P4064/D2/T159] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2020-08-24 23:36:12,737 [P4064/D2/T159] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\App_Data\Models\all.generated.cs(1613): error CS0542: 'RedirectPage': member names cannot be the same as their enclosing type
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels()
+ 2020-08-24 23:36:12,737 [P4064/D2/T159] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2020-08-24 23:36:13,971 [P4064/D2/T159] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-24 23:36:13,971 [P4064/D2/T159] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-08-24 23:36:13,971 [P4064/D2/T159] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2020-08-24 23:36:13,971 [P4064/D2/T159] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 5ms)
+ 2020-08-24 23:37:00,002 [P4064/D2/T201] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\App_Data\Models\all.generated.cs(1613): error CS0542: 'RedirectPage': member names cannot be the same as their enclosing type
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels()
+ 2020-08-24 23:37:00,002 [P4064/D2/T201] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2020-08-24 23:37:53,126 [P4064/D2/T53] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2020-08-24 23:40:42,172 [P4064/D2/T12] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\App_Data\Models\all.generated.cs(1613): error CS0542: 'RedirectPage': member names cannot be the same as their enclosing type
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels()
+ 2020-08-24 23:40:42,172 [P4064/D2/T12] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2020-08-24 23:41:04,125 [P4064/D2/T221] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:41:08,484 [P4064/D2/T170] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:41:08,484 [P4064/D2/T170] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:41:12,422 [P4064/D2/T122] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:41:16,594 [P4064/D2/T180] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:41:16,594 [P4064/D2/T180] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:41:17,500 [P4064/D2/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:41:21,672 [P4064/D2/T146] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:41:21,672 [P4064/D2/T146] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:41:23,984 [P4064/D2/T188] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:41:28,172 [P4064/D2/T258] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:41:28,172 [P4064/D2/T258] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:41:31,234 [P4064/D2/T221] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:41:35,422 [P4064/D2/T258] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:41:35,422 [P4064/D2/T258] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:41:37,797 [P4064/D2/T258] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:41:41,969 [P4064/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:41:42,000 [P4064/D2/T22] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:41:48,187 [P4064/D2/T122] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:41:52,375 [P4064/D2/T122] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:41:52,375 [P4064/D2/T122] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:41:59,359 [P4064/D2/T122] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:42:03,546 [P4064/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:42:03,546 [P4064/D2/T22] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:42:05,703 [P4064/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:42:09,910 [P4064/D2/T188] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:42:09,910 [P4064/D2/T188] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:42:11,359 [P4064/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:42:15,562 [P4064/D2/T188] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:42:15,562 [P4064/D2/T188] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:42:21,859 [P4064/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:42:26,031 [P4064/D2/T188] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:42:26,031 [P4064/D2/T188] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:42:30,234 [P4064/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:42:34,406 [P4064/D2/T188] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:42:34,406 [P4064/D2/T188] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:43:00,612 [P4064/D2/T146] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:43:04,765 [P4064/D2/T146] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:43:04,765 [P4064/D2/T146] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:43:10,468 [P4064/D2/T122] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:43:14,643 [P4064/D2/T258] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:43:14,687 [P4064/D2/T258] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:43:29,390 [P4064/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:43:33,577 [P4064/D2/T146] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:43:33,577 [P4064/D2/T146] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:43:49,155 [P4064/D2/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-24 23:43:53,343 [P4064/D2/T154] INFO  umbraco.content - Save Xml to file...
+ 2020-08-24 23:43:53,343 [P4064/D2/T154] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-24 23:45:29,936 [P4064/D2/T122] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\Views\Partials\Gallery\Images.cshtml(43): error CS0128: A local variable named 'galleryImage' is already defined in this scope
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at ASP._Page_Views_Gallery_cshtml.<Execute>b__0() in c:\inetpub\wwwroot\lftzweb_umb\Views\Gallery.cshtml:line 10
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderSection>b__5(TextWriter tw)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views_MasterPage_cshtml.Execute() in c:\inetpub\wwwroot\lftzweb_umb\Views\MasterPage.cshtml:line 33
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2020-08-24 23:50:45,074 [P4064/D2/T139] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\Views\Partials\Gallery\Images.cshtml(27): error CS0019: Operator '==' cannot be applied to operands of type 'Umbraco.Core.Models.IPublishedContent' and 'string'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at ASP._Page_Views_Gallery_cshtml.<Execute>b__0() in c:\inetpub\wwwroot\lftzweb_umb\Views\Gallery.cshtml:line 10
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderSection>b__5(TextWriter tw)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views_MasterPage_cshtml.Execute() in c:\inetpub\wwwroot\lftzweb_umb\Views\MasterPage.cshtml:line 33
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

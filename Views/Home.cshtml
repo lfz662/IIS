@@ -1,0 +1,107 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using LFZ_Logic;
+@using Umbraco.Web.Models
+@{
+	Layout = "MasterPage.cshtml";
+}
+@section fullPage
+{
+
+<section id="content">
+            
+            <!--hero banner start-->
+            @Html.CachedPartial("Home/SpotLight",Model.Content, 3600,true)
+            <!--hero banner end-->
+            
+            <!--join section start-->
+          
+            @Html.CachedPartial("Home/JoinSection",Model.Content, 3600,true)
+            <!--join section end-->
+            
+            <!--glance section start-->
+               @Html.CachedPartial("Home/GlanceSection",Model.Content, 3600,true)
+            <!--glance section end-->
+            
+            <!--feature section start-->
+        
+              @Html.CachedPartial("Home/Feature",Model.Content, 3600,true)
+            <!--feature section end-->
+            
+            <!--profile section start-->
+            @Html.Partial("Home/Profile")
+            <!--profile section end-->
+            
+            <!--news section start-->
+            @Html.Partial("Home/News")
+            <!--news section end-->
+            
+            <!--social section start--> 
+                 @Html.Partial("Home/SocialSection") 
+            <!--social section end-->
+            
+        </section>
+}
+@section footerScripts
+{
+<script>
+                $(document).ready(function(){
+                    $('#profileVideoNew').bxSlider({
+                        minSlides:1,
+                        maxSlides:4,
+                        moveSlides:1,
+                        slideWidth:320,
+                        pager:false,
+                        touchEnabled: true
+                    }); 
+                });
+            </script>
+<script>
+    var twitterFeeds = [];
+    $(document).ready(function () {
+      //  console.log('testreponse');
+       $.ajax({
+                type: "GET",
+                url: "/umbraco/surface/Twitterfeed/GetTwitterFeeds",
+                dataType: "json",
+                success: function (reponse) {
+                   console.log(reponse);
+                    twitterFeeds = reponse;
+                      var obj =  JSON.parse(twitterFeeds);
+                     //console.log(obj)
+                    var len = obj.length;
+                   //console.log(len);
+                   var sTwFeeds = "";
+                   for(var i = 0 ; i < len; i++)
+                   {
+                      sTwFeeds += "<li><div class='socialCont'><a href='"+obj[i]["url"]+"' target='_blank'><span class='socialTxt socialTxtSp minHeight211 mb20'><span class='twitterThumb'></span><span class='socialPara text-center'>"+obj[i]["text"]+"</span><span class='hoursField textCenter'>"+obj[i]["time"]+"</span></span></a></div></li>";
+                   }
+                   console.log(sTwFeeds)
+                   document.getElementById("socialGallery").innerHTML = sTwFeeds;
+                    var socialGallery = null;
+
+        function runSocialSlider() {
+
+            if (socialGallery) {
+                socialGallery.destroySlider();
+            }
+
+
+            socialGallery = $('#socialGallery').bxSlider({
+                minSlides:1,
+                maxSlides:3,
+                moveSlides:1,
+                slideWidth:351,
+                pager:false,
+                touchEnabled: false
+            });
+        }
+
+        runSocialSlider();
+                },
+                error:function(err){
+                    console.log(twitterFeeds);
+                }
+       });
+    });
+  </script>
+  }

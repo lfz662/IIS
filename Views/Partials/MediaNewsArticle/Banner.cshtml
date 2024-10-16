@@ -1,0 +1,29 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+@if (!Model.GetPropertyValue<bool>("isBanner"))
+{
+<div class="bannerWithTexture noBg">
+                <div class="innerTopBanner whiteSlant" style="background-image: url(@((Model.GetPropertyValue<IPublishedContent>("bannerBackgroundImage")).Url));">
+                     @{
+                          if (Model.GetPropertyValue<bool>("IsBannerVideo") && Model.HasValue("videoUrl"))
+                          {
+                              <video width="320" height="240" poster="images/videoPoster.png" autoplay muted loop playsinline class="hidden-sm hidden-xs">
+                                <source src="@Model.GetPropertyValue("videoUrl")" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                          }
+                      }
+                    
+                      @if (Model.HasValue("bannerTitle"))
+                      {
+                        <h1 class="pageTitle" data-aos="fade-down" data-aos-duration="1000">@(@Html.Raw(!string.IsNullOrEmpty(Model.GetPropertyValue("bannerTitle").ToString()) ? Model.GetPropertyValue("bannerTitle") : ""))</h1>
+                        <!--<h1 class="pageTitle" data-aos="fade-down" data-aos-duration="1000">@(!string.IsNullOrEmpty(Model.GetPropertyValue("bannerTitle").ToString()) ? Model.GetPropertyValue("bannerTitle") : "")</h1>-->
+                      }  
+                    <div class="bredcrumb" data-aos="fade-right" data-aos-duration="1000">
+                        <a href="#">Home</a>  >  <a href="#">Media</a>  > News & Events
+                    </div>
+     </div>
+                
+</div>
+
+}

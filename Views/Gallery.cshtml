@@ -1,0 +1,29 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "MasterPage.cshtml";
+}
+@section fullPage
+{
+
+<section id="content">
+   
+     @Html.CachedPartial("Gallery/Banner",Model.Content, 3600,true)
+    @Html.Partial("Gallery/Images")
+</section>
+ 
+  
+}
+@section footerScripts
+{
+<script type="text/javascript">
+$(function() {
+    $("#paginationContent").paginate({
+      perPage: 9,
+      containerTag: 'div',
+      paginationTag: 'ul',
+      itemTag: 'li',
+      linkTag: 'a'
+    });
+});
+</script> 
+}

@@ -1,0 +1,21 @@
+﻿ 2020-10-02 01:05:33,235 [P7572/D2/T214] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-01 01:05:33
+ 2020-10-02 04:35:31,920 [P7572/D2/T224] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.lagosfreezone.com/umbraco
+ 2020-10-02 04:35:31,936 [P7572/D2/T224] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.lagosfreezone.com/umbraco (UmbracoModule request)
+ 2020-10-02 05:05:33,252 [P7572/D2/T193] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-01 05:05:33
+ 2020-10-02 08:27:01,416 [P7572/D2/T203] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-10-02 09:05:33,260 [P7572/D2/T276] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-01 09:05:33
+ 2020-10-02 09:07:44,556 [P7572/D2/T266] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-10-02 09:07:44,556 [P7572/D2/T266] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-10-02 09:07:44,556 [P7572/D2/T266] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2020-10-02 09:07:44,556 [P7572/D2/T266] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2020-10-02 09:07:55,697 [P7572/D2/T250] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-10-02 09:07:55,697 [P7572/D2/T250] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-10-02 09:07:55,697 [P7572/D2/T250] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2020-10-02 09:07:55,697 [P7572/D2/T250] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2020-10-02 10:16:30,795 [P7572/D2/T178] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-10-02 10:37:13,475 [P7572/D2/T180] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-10-02 10:52:38,625 [P7572/D2/T181] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-10-02 11:25:40,268 [P7572/D2/T179] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-10-02 13:05:33,276 [P7572/D2/T191] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-01 13:05:33
+ 2020-10-02 17:05:33,278 [P7572/D2/T195] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-01 17:05:33
+ 2020-10-02 21:05:33,281 [P7572/D2/T168] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-01 21:05:33

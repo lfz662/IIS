@@ -1,0 +1,36 @@
+	USE [Db_Datagenie_Contacts_new]
+	DECLARE @temp TABLE
+    (
+    MaterCompanyReal_Id INT,
+    RECORD_ID INT
+    --Kind VARCHAR(16)
+    )
+	declare @RealId as int
+	declare @RecId as int
+	--set @recId = 2950842
+	--set @RealId = 122556
+	
+	INSERT INTO @temp
+	SELECT MasterCompany.RECORD_ID as MaterCompanyReal_Id, db_owner.MasterContacts.RECORD_ID
+	 FROM tbl_CompanySubSubcategory INNER JOIN MasterCompany 
+	 INNER JOIN  db_owner.MasterContacts 
+	 ON db_owner.MasterContacts.COMPANY = MasterCompany.COMPANY_NAME 
+	 ON tbl_CompanySubSubcategory.SubSubcategory = MasterCompany.INDUSTRY where 1=1  
+	 and  tbl_CompanySubSubcategory.CategoryID in (2)
+	 and  tbl_CompanySubSubcategory.SubcategoryID in (6,7,8,9)
+
+
+	 DECLARE cur CURSOR FOR SELECT MaterCompanyReal_Id, RECORD_ID FROM @temp
+	 OPEN cur
+	FETCH NEXT FROM cur INTO @realId, @recId
+	WHILE @@FETCH_STATUS = 0 BEGIN
+		 --print(select * from db_owner.MasterContacts where record_id=@RecId)
+		 update db_owner.MasterContacts set [MasterCompanyRecord_Id] = @RealId 
+		 where record_id=@RecId
+		--EXEC sp_FillIndustry_Output @realId, @recid 
+		print(@realId)
+		print(@RecId)
+		FETCH NEXT FROM cur INTO @realId, @recid
+	END
+	CLOSE cur    
+	DEALLOCATE cur

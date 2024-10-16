@@ -1,0 +1,18 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "MasterPage.cshtml";
+}
+@section fullPage
+{
+
+<section id="content">
+   
+    @Html.CachedPartial("LFZProfile/Banner",Model.Content, 3600,true)
+    @Html.Partial("LFZProfile/Profile1")
+</section>
+ 
+  
+}
+@section footerScripts
+{
+}

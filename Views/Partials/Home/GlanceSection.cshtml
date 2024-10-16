@@ -1,0 +1,88 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+
+ <div class="glanceBx" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
+                <div class="container">
+                    <div id="glanceGallery" class="carousel" data-ride="carousel">
+	
+                        <ol class="carousel-indicators">
+                            <li data-target="#glanceGallery" data-slide-to="0" class="active"></li>
+                            <li data-target="#glanceGallery" data-slide-to="1"></li>
+                            <li data-target="#glanceGallery" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
+                        @{
+                            
+                            var LFZAtAGlance = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("lFZAtAGlance");
+                            if (LFZAtAGlance != null && LFZAtAGlance.Count() > 0)
+                            {
+                                int i = 0;
+                                foreach (var field in LFZAtAGlance)
+                                {
+                                    var GlanceDeskImg = field.GetPropertyValue<IPublishedContent>("glanceSkewImage");
+                                    var GlanceMobImg = field.GetPropertyValue<IPublishedContent>("glanceSkewMobileImage");
+                                     if(i == 0){       
+                                     <!-- First slide -->
+                                    <div class="item active">
+                                                <div class="carousel-caption">
+                                                    <div class="homeGlanceTxt">
+                                                        <div class="dispTable">
+                                                            <div class="dispTableCell">
+                                                                <h4 data-animation="animated fadeIn">
+                                                                    @Html.Raw(@field.GetPropertyValue("title"))
+                                                                </h4>
+                                                                <p data-animation="animated fadeInUp">@field.GetPropertyValue("description")</p>
+                                                                <span class="whiteSkewLft skewTxt" data-animation="animated fadeIn animationDelay1"><span class="glanceSkewTxt">@field.GetPropertyValue("glanceSkewTxt")</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <span class="whiteSkewLft lftPos"></span>
+                                                    </div>
+                                                    <div class="glanceImg" data-animation="animated fadeIn" data-aos="fade-left" data-aos-duration="1500">
+                                                        <img src="@GlanceDeskImg.Url" width="1046" height="580" alt="" class="img-responsive hidden-sm hidden-xs">
+                                                        <img src="@GlanceMobImg.Url" width="503" height="580" alt="" class="img-responsive visible-sm visible-xs">
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div><!-- /.item -->
+                                    }else{
+                                    <!--  slide -->
+                                    <div class="item">
+                                                <div class="carousel-caption">
+                                                    <div class="homeGlanceTxt">
+                                                        <div class="dispTable">
+                                                            <div class="dispTableCell">
+                                                                <h4 data-animation="animated fadeIn">
+                                                                    @Html.Raw(@field.GetPropertyValue("title"))
+                                                                </h4>
+                                                                <p data-animation="animated fadeInUp">@field.GetPropertyValue("description")</p>
+                                                                <span class="whiteSkewLft skewTxt" data-animation="animated fadeIn animationDelay1"><span class="glanceSkewTxt">@field.GetPropertyValue("glanceSkewTxt")</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <span class="whiteSkewLft lftPos"></span>
+                                                    </div>
+                                                    <div class="glanceImg" data-animation="animated fadeIn">
+                                                        <img src="@GlanceDeskImg.Url" width="1046" height="580" alt="" class="img-responsive hidden-sm hidden-xs">
+                                                        <img src="@GlanceMobImg.Url" width="503" height="580" alt="" class="img-responsive visible-sm visible-xs">
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div><!-- /.item -->
+                                    }
+                                    i++;
+                                }
+                            }
+                        }
+                        </div>
+                        <a class="left carousel-control" href="#glanceGallery" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#glanceGallery" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+                </div>    
+            </div>

@@ -1,0 +1,15 @@
+﻿ 2021-09-02 01:38:52,541 [P2616/D2/T46] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-09-01 01:38:52
+ 2021-09-02 05:38:52,554 [P2616/D2/T46] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-09-01 05:38:52
+ 2021-09-02 05:42:41,911 [P2616/D2/T119] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-09-02 05:42:50,271 [P2616/D2/T40] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-09-02 05:42:56,880 [P2616/D2/T31] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-09-02 05:43:08,567 [P2616/D2/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-09-02 05:43:20,099 [P2616/D2/T32] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-09-02 05:43:29,786 [P2616/D2/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-09-02 05:43:33,442 [P2616/D2/T43] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-09-02 05:52:15,736 [P2616/D2/T58] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-09-02 09:26:22,638 [P2616/D2/T56] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-09-02 09:38:52,554 [P2616/D2/T204] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-09-01 09:38:52
+ 2021-09-02 13:38:52,584 [P2616/D2/T65] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-09-01 13:38:52
+ 2021-09-02 17:38:52,598 [P2616/D2/T68] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-09-01 17:38:52
+ 2021-09-02 21:38:52,613 [P2616/D2/T217] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-09-01 21:38:52

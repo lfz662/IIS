@@ -1,0 +1,61 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var selection = CurrentPage.Ancestors();
+    Umbraco.Web.Models.DynamicPublishedContentList selections = CurrentPage.Ancestors(1);
+}
+
+@if (selection.Any())
+{
+    var Home = selections.FirstOrDefault();
+    Umbraco.Web.Models.DynamicPublishedContent secondlist = null;
+    Umbraco.Web.Models.DynamicPublishedContent thirdlist = null;
+    <a href="@Home.Url" >Home</a> @Html.Raw("  >  ")
+     foreach (var item in Home.Children)
+     {
+        foreach (var items in selection)
+        {
+            if (items.Id == item.Id)
+            {
+                secondlist = items;
+            }
+        }
+      }
+    if (secondlist != null)
+    {
+            if(@secondlist.Name == "Setting Up LFZ")
+            {
+              <a href="@secondlist.Url">Setting Up@@LFZ</a> @Html.Raw("  >  ")
+            }
+            else
+            {
+              <a href="@secondlist.Url">@secondlist.Name</a> @Html.Raw("  >  ")
+            }
+    }
+    if (secondlist != null)
+    {
+        foreach (var item in secondlist.Children)
+        {
+            foreach (var items in selection)
+            {
+                if (items.Id == item.Id)
+                {
+                    thirdlist = items;
+                }
+            }
+        }
+    }
+
+   if (thirdlist != null)
+   {
+           <a href="@thirdlist.Url">@thirdlist.Name</a> @Html.Raw("  >  ")
+   }                             
+     if(@CurrentPage.Name == "Rules-Regulations")
+     {   
+       <a href="#">Rules & Regulations</a>
+     }
+     else
+     {
+      <a href="#">@CurrentPage.Name</a>
+     }
+}
+                       

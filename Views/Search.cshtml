@@ -1,0 +1,50 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "MasterPage.cshtml";
+}
+@{
+
+var data1=Request.Form["id of the textinput"];
+var data="";
+@*getting query string value*@
+    if(HttpContext.Current.Request.QueryString["Search"].ToString()!=null){
+	  data =HttpContext.Current.Request.QueryString["Search"].ToString();}
+	 else{ data=""; }
+}
+@section head
+{
+  <style>
+        .all_result a{font-size:17px !important;}
+        p.home-no-result { color: #fff; font-size: 20px;}
+        header .head_toplink .sublevel li a{padding:10px 10px;}
+        header .head_toplink .sublevel{ background: rgba(61,126,219,1);}
+    </style>
+}
+@section fullPage
+{
+   @Html.Partial("SiteLayOut/SearchBanner")
+   <div class="container">
+    @*<div class="breadcrumb">
+        @Umbraco.RenderMacro("BreadCum")
+    </div>*@
+   </div>
+    <section id="content">
+        <div class="container searchPage">
+         @Umbraco.RenderMacro("FullTextSearch", new
+           {
+               searchTerms=@data,
+               queryType = "MultiRelevance",
+               titleProperties = "pageTitle,pageName,nodeName,seoMetaKeywords,seoTitle,title,seoMetaDescription,directorName,directorDesignation,profileDescription,bannerDescription,pageData",
+               bodyProperties = "FullTextSearch,pageData",
+               summaryProperties = "FullTextSearch",
+               titleLinkProperties = "seoTitle,nodeName,pageName,seoMetaDescription,seoMetaKeywords",
+               rootNodes = "",
+               contextHighlighting = "false",
+               summaryLength = "",
+               pageLength = "10",
+               fuzzyness = "0.5",
+               useWildcards = "0",
+           })
+        </div>   
+     </section>       
+}

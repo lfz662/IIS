@@ -1,0 +1,11 @@
+﻿ 2021-03-14 01:36:54,674 [P1688/D2/T78] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-03-13 01:36:54
+ 2021-03-14 05:36:54,676 [P1688/D2/T93] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-03-13 05:36:54
+ 2021-03-14 09:36:54,677 [P1688/D2/T90] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-03-13 09:36:54
+ 2021-03-14 13:36:54,679 [P1688/D2/T19] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-03-13 13:36:54
+ 2021-03-14 17:36:54,679 [P1688/D2/T37] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-03-13 17:36:54
+ 2021-03-14 20:35:57,220 [P1688/D2/T44] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-03-14 21:36:54,691 [P1688/D2/T43] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-03-13 21:36:54

@@ -1,0 +1,99 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+
+@{
+    var spotLightBannerVideo = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("spotLightBanner");
+    var  sideLink = "";
+    if (spotLightBannerVideo != null && spotLightBannerVideo.Count() > 0)
+    {
+     <div class="homeBanner" data-aos="fade-down" data-aos-duration="1000">
+               
+                <div id="carousel-example-generic" class="carousel" data-ride="carousel">
+	
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner" role="listbox">
+                    @foreach (var field in spotLightBannerVideo)
+                    {
+                        var deskImg = field.GetPropertyValue<IPublishedContent>("deskImage");
+                        var mobileImg = field.GetPropertyValue<IPublishedContent>("mobileImage");
+                        sideLink = field.GetPropertyValue("callToActionLink").ToString();
+                        <!-- First slide -->
+                        
+                        if(field.GetPropertyValue<bool>("showVideo"))
+                        {
+                         
+                         <div class="item active">
+                            <div class="carousel-caption">
+                                <div class="bannerImg" data-animation="animated fadeIn">
+                                    <video width="320" height="240" poster="/media/1385/spotlight1-bk.jpg" autoplay muted loop playsinline class="hidden-sm hidden-xs">
+                                        <source src="@field.GetPropertyValue("bannerVideo")" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                      </video>
+                                      <img src="@mobileImg.Url" width="640" height="656" alt="" class="img-responsive visible-sm visible-xs">
+                                     
+                                </div>
+                                <div class="homeBannerTxt">
+                                    <div class="dispTable">
+                                        <div class="dispTableCell">
+                                            <h4 data-animation="animated fadeInUpBig animationDelay1">
+                                                @field.GetPropertyValue("title")
+                                            </h4>
+                                            <h5 data-animation="animated fadeInRightBig animationDelay2">
+                                                @field.GetPropertyValue("description")
+                                            </h5>
+                                            <a href="@field.GetPropertyValue("callToActionLink")" class="anchorButton hvr-rectangle-out animated fadeInLeftBig animationDelay3 ">@field.GetPropertyValue("callToActionTitle")</a>
+                                            <!-- visible-sm-inline-block visible-xs-inline-block -->
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        }
+                        else{
+                        <!-- Second slide -->
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <div class="bannerImg" data-animation="animated fadeIn">
+                                    <img src="@deskImg.Url" width="1360" height="657" alt="" class="img-responsive hidden-sm hidden-xs">
+                                    <img src="@mobileImg.Url" width="640" height="656" alt="" class="img-responsive visible-sm visible-xs">
+                                </div>
+                                <div class="homeBannerTxt">
+                                    <div class="dispTable">
+                                        <div class="dispTableCell">
+                                            <h4 data-animation="animated fadeInUpBig animationDelay1">
+                                                @field.GetPropertyValue("title")
+                                            </h4>
+                                            <h5 data-animation="animated fadeInRightBig animationDelay2">
+                                                 @field.GetPropertyValue("description")
+                                            </h5>
+                                            <a href="@field.GetPropertyValue("callToActionLink")" class="anchorButton hvr-rectangle-out animated fadeInLeftBig animationDelay3">@field.GetPropertyValue("callToActionTitle")</a>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        }
+                        
+                    }
+                    </div>
+
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                
+                <a href="@sideLink" class="hidden-xs hidden-sm joinUsBut" data-aos="fade-left" data-aos-duration="1000"><span class="joinIcon"></span> Explore More</a>
+  
+        </div>
+    }
+}

@@ -1,0 +1,1526 @@
+﻿ 2021-05-23 00:36:33,264 [P5896/D2/T246] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-22 00:36:33
+ 2021-05-23 03:29:10,872 [P5896/D2/T238] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 03:29:11,860 [P5896/D2/T37] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 03:41:01,253 [P5896/D2/T57] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 04:36:33,300 [P5896/D2/T36] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-22 04:36:33
+ 2021-05-23 06:19:02,458 [P5896/D2/T116] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 06:22:41,206 [P5896/D2/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 06:39:35,212 [P5896/D2/T54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 08:27:42,992 [P5896/D2/T37] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 08:29:25,307 [P5896/D2/T111] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 08:29:26,000 [P5896/D2/T116] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 08:36:33,324 [P5896/D2/T36] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-22 08:36:33
+ 2021-05-23 09:33:13,018 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2021-05-23 09:33:13,019 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2021-05-23 09:33:13,025 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2021-05-23 09:33:13,025 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2021-05-23 09:33:13,033 [P5896/D2/T103] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2021-05-23 09:33:13,034 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2021-05-23 09:33:13,034 [P5896/D2/T204] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2021-05-23 09:33:13,034 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2021-05-23 09:33:13,035 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2021-05-23 09:33:13,035 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2021-05-23 09:33:13,035 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2021-05-23 09:33:13,036 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2021-05-23 09:33:13,036 [P5896/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2021-05-23 09:33:13,035 [P5896/D2/T116] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2021-05-23 09:33:13,037 [P5896/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2021-05-23 09:33:13,036 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2021-05-23 09:33:13,037 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2021-05-23 09:33:13,038 [P5896/D2/T39] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2021-05-23 09:33:13,041 [P5896/D2/T27] INFO  Umbraco.Core.MainDom - Stopping...
+ 2021-05-23 09:33:13,045 [P5896/D2/T27] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2021-05-23 09:33:13,049 [P5896/D2/T27] INFO  Umbraco.Web.ExamineStartup - Complete (took 4ms)
+ 2021-05-23 09:33:13,050 [P5896/D2/T27] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2021-05-23 09:33:13,059 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2021-05-23 09:33:13,059 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2021-05-23 09:33:13,059 [P5896/D2/T27] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2021-05-23 09:33:31,733 [P1836/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.10.0 application starting on IP-208-109-15-4
+ 2021-05-23 09:33:31,749 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2021-05-23 09:33:31,760 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2021-05-23 09:33:31,812 [P1836/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2021-05-23 09:33:31,813 [P1836/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2021-05-23 09:33:31,815 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-23 09:33:31,869 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 53ms)
+ 2021-05-23 09:33:31,869 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2021-05-23 09:33:31,871 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2021-05-23 09:33:31,908 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-23 09:33:31,909 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2021-05-23 09:33:31,909 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2021-05-23 09:33:31,910 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2021-05-23 09:33:31,910 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-23 09:33:31,910 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-23 09:33:31,911 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2021-05-23 09:33:31,913 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2021-05-23 09:33:31,920 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-23 09:33:31,920 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-23 09:33:31,920 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2021-05-23 09:33:31,921 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2021-05-23 09:33:31,922 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-23 09:33:31,922 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-23 09:33:31,922 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2021-05-23 09:33:31,923 [P1836/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2021-05-23 09:33:33,858 [P1836/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2021-05-23 09:33:34,081 [P1836/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2021-05-23 09:33:34,236 [P1836/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2021-05-23 09:33:34,237 [P1836/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 4
+ 2021-05-23 09:33:34,248 [P1836/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2613ms)
+ 2021-05-23 09:33:43,152 [P5896/D2/T27] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2021-05-23 09:47:37,317 [P1836/D2/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://lagosfreezone.com/umbraco
+ 2021-05-23 09:47:37,320 [P1836/D2/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://lagosfreezone.com/umbraco (UmbracoModule request)
+ 2021-05-23 09:47:37,779 [P1836/D2/T12] INFO  umbraco.content - Load Xml from file...
+ 2021-05-23 09:47:37,784 [P1836/D2/T12] INFO  umbraco.content - Loaded Xml from file.
+ 2021-05-23 09:47:38,636 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-23 09:47:38,636 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-23 09:47:38,637 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2021-05-23 09:47:38,639 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 2ms)
+ 2021-05-23 09:47:42,097 [P1836/D2/T12] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\lftzweb_umb\App_Data\Models\all.generated.cs(1613): error CS0542: 'RedirectPage': member names cannot be the same as their enclosing type
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels()
+ 2021-05-23 09:47:42,100 [P1836/D2/T12] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2021-05-23 09:47:42,737 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-23 09:47:42,737 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-23 09:47:42,737 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2021-05-23 09:47:42,738 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2021-05-23 09:48:36,606 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-23 09:48:36,607 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-23 09:48:36,607 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2021-05-23 09:48:36,607 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2021-05-23 09:48:36,885 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2021-05-23 09:48:36,885 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2021-05-23 09:48:36,886 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2021-05-23 09:48:36,886 [P1836/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 0ms)
+ 2021-05-23 09:48:37,855 [P1836/D2/T27] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-22 09:48:37
+ 2021-05-23 10:02:50,696 [P1836/D2/T58] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 10:03:02,795 [P1836/D2/T54] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://www.lagosfreezone.com/umbraco
+ 2021-05-23 10:03:02,796 [P1836/D2/T54] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.lagosfreezone.com/umbraco (UmbracoModule request)
+ 2021-05-23 10:58:47,016 [P1836/D2/T58] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 10:58:47,572 [P1836/D2/T43] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 13:48:37,895 [P1836/D2/T108] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-22 13:48:37
+ 2021-05-23 13:55:22,679 [P1836/D2/T105] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 14:12:11,658 [P1836/D2/T49] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 14:36:27,960 [P1836/D2/T60] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 15:14:36,946 [P1836/D2/T57] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 15:30:40,700 [P1836/D2/T60] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 15:45:17,139 [P1836/D2/T18] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 16:05:32,912 [P1836/D2/T36] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 16:22:02,293 [P1836/D2/T48] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 16:30:30,664 [P1836/D2/T5] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 16:37:23,304 [P1836/D2/T14] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Umbraco.Core.GuidUdi' does not contain a definition for 'Url'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Views_RedirectPage_cshtml.Execute() in c:\inetpub\wwwroot\lftzweb_umb\Views\RedirectPage.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2021-05-23 17:48:37,924 [P1836/D2/T57] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-22 17:48:37
+ 2021-05-23 20:50:53,219 [P1836/D2/T34] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 21:29:13,748 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:14,032 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:14,033 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:14,033 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:14,034 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:14,038 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:14,038 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:14,039 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:14,329 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,057 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,058 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,059 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,060 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,061 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,062 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,063 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,358 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,671 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,672 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,672 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,673 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,674 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,675 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:15,675 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:18,798 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,073 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,074 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,074 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,075 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,076 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,094 [P1836/D2/T139] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:29:19,095 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,095 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,398 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,675 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,676 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,677 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,678 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,679 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,692 [P1836/D2/T134] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:29:19,693 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:19,694 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:28,334 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:28,600 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:28,601 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:28,602 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:28,603 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:28,604 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:28,620 [P1836/D2/T137] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:29:28,621 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:28,622 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:35,879 [P1836/D2/T132] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:36,857 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:36,858 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:36,859 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:36,860 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:36,861 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:36,874 [P1836/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:29:36,875 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:36,875 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:37,800 [P1836/D2/T139] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:29:40,789 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:41,054 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:41,055 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:41,056 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:41,057 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:41,058 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:41,071 [P1836/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:29:41,071 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:41,072 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:41,377 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:48,915 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:49,196 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:49,459 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:49,460 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:49,461 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:49,462 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:49,463 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:49,475 [P1836/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:29:49,476 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:49,477 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:55,277 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:55,957 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:55,959 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:55,959 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:55,960 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:55,961 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:55,975 [P1836/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:29:55,976 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:55,977 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:56,289 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:56,594 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:56,595 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:56,596 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:56,596 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:56,597 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:56,609 [P1836/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:29:56,610 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:29:56,611 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:09,499 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:09,773 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:09,774 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:09,774 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:09,774 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:09,775 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:09,789 [P1836/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:30:09,790 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:09,790 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:10,286 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:10,578 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:10,579 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:10,580 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:10,581 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:10,582 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:10,595 [P1836/D2/T134] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:30:10,596 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:10,597 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:30:48,560 [P1836/D2/T143] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 21:31:00,915 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,189 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,190 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,191 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,193 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,195 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,216 [P1836/D2/T139] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:31:01,217 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,217 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,535 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,803 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,804 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,805 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,805 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,806 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,818 [P1836/D2/T145] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-05-23 21:31:01,819 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:01,819 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:31:31,024 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:54,770 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:59,377 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:59,674 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:59,954 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:59,955 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:59,956 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:59,957 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:59,960 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:59,960 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:33:59,961 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:00,340 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:00,625 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:00,626 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:00,627 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:00,628 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:00,629 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:00,629 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:00,630 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:00,943 [P1836/D2/T148] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,254 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,255 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,255 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,256 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,257 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,258 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,258 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,550 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,840 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,841 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,842 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,842 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,843 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,843 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:01,844 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:07,298 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:15,831 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,113 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,115 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,115 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,116 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,119 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,119 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,120 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,422 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,690 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,691 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,691 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,692 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,693 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,694 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:16,695 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,004 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,280 [P1836/D2/T148] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,281 [P1836/D2/T148] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,282 [P1836/D2/T148] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,283 [P1836/D2/T148] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,284 [P1836/D2/T148] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,285 [P1836/D2/T148] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,285 [P1836/D2/T148] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,587 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,878 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,879 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,880 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,881 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,882 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,883 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:17,883 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:18,191 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:19,231 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:19,232 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:19,233 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:19,234 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:19,235 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:19,236 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:19,236 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:19,533 [P1836/D2/T142] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,131 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,132 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,132 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,133 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,134 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,135 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,135 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,428 [P1836/D2/T145] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,711 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,712 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,713 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,714 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,715 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,715 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:21,716 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:22,025 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:22,308 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:22,309 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:22,310 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:22,311 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:22,312 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:22,313 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:22,313 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:22,659 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,251 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,252 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,253 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,254 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,256 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,257 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,257 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,557 [P1836/D2/T148] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,838 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,839 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,840 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,841 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,843 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,844 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:23,844 [P1836/D2/T147] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:24,145 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:24,423 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:24,424 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:24,425 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:24,426 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:24,428 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:24,428 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:24,429 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:24,739 [P1836/D2/T146] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,024 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,025 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,026 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,027 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,028 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,029 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,029 [P1836/D2/T134] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,327 [P1836/D2/T149] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,616 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,617 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,618 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,618 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,620 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,620 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,621 [P1836/D2/T139] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:25,934 [P1836/D2/T137] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:26,201 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:26,202 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:26,203 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:26,203 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:26,205 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:26,205 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:34:26,206 [P1836/D2/T143] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2021-05-23 21:41:46,755 [P1836/D2/T139] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 21:48:37,947 [P1836/D2/T142] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-05-22 21:48:37
+ 2021-05-23 21:56:55,723 [P1836/D2/T134] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 23:15:57,383 [P1836/D2/T61] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 23:30:26,217 [P1836/D2/T56] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 23:31:18,371 [P1836/D2/T53] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-05-23 23:47:38,887 [P1836/D2/T11] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.

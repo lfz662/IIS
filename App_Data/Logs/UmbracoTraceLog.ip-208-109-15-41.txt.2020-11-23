@@ -1,0 +1,59 @@
+﻿ 2020-11-23 00:13:28,778 [P2184/D2/T173] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-11-22 00:13:28
+ 2020-11-23 04:13:28,794 [P2184/D2/T78] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-11-22 04:13:28
+ 2020-11-23 04:49:30,390 [P2184/D2/T82] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-11-23 05:03:01,135 [P2184/D2/T147] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-11-23 08:13:28,796 [P2184/D2/T80] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-11-22 08:13:28
+ 2020-11-23 10:17:54,920 [P2184/D2/T166] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-11-23 10:31:02,431 [P2184/D2/T83] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-11-23 12:13:28,798 [P2184/D2/T57] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-11-22 12:13:28
+ 2020-11-23 12:39:16,460 [P2184/D2/T271] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-11-23 12:51:42,236 [P2184/D2/T202] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-11-23 16:02:49,741 [P2184/D2/T245] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-11-23 16:02:49,741 [P2184/D2/T245] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-11-23 16:02:49,741 [P2184/D2/T245] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2020-11-23 16:02:49,760 [P2184/D2/T245] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 5ms)
+ 2020-11-23 16:02:50,350 [P2184/D2/T121] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-11-23 16:02:50,366 [P2184/D2/T121] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-11-23 16:02:50,366 [P2184/D2/T121] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2020-11-23 16:02:50,366 [P2184/D2/T121] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 3ms)
+ 2020-11-23 16:13:28,799 [P2184/D2/T255] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-11-22 16:13:28
+ 2020-11-23 16:47:21,083 [P2184/D2/T243] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-11-23 16:47:21,083 [P2184/D2/T243] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-11-23 16:47:21,083 [P2184/D2/T243] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2020-11-23 16:47:21,098 [P2184/D2/T243] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 5ms)
+ 2020-11-23 16:47:21,177 [P2184/D2/T243] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username cmslfz@lfz.com from IP address 47.8.178.54
+ 2020-11-23 16:47:21,192 [P2184/D2/T243] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: cmslfz@lfz.com logged in from IP address 47.8.178.54
+ 2020-11-23 16:47:22,942 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-11-23 16:47:22,942 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-11-23 16:47:22,942 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2020-11-23 16:47:22,942 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 1ms)
+ 2020-11-23 16:47:22,973 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-11-23 16:47:22,973 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-11-23 16:47:22,973 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2020-11-23 16:47:22,973 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2020-11-23 16:47:22,973 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-11-23 16:47:22,973 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-11-23 16:47:22,973 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2020-11-23 16:47:22,973 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2020-11-23 16:47:23,005 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-11-23 16:47:23,005 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-11-23 16:47:23,005 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2020-11-23 16:47:23,005 [P2184/D2/T185] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2020-11-23 17:06:55,497 [P2184/D2/T121] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: cmslfz@lfz.com, IP Address: 47.8.178.54
+ 2020-11-23 17:26:27,896 [P2184/D2/T237] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username cmslfz@lfz.com from IP address 47.8.178.54
+ 2020-11-23 17:26:27,896 [P2184/D2/T237] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: cmslfz@lfz.com logged in from IP address 47.8.178.54
+ 2020-11-23 17:46:02,920 [P2184/D2/T255] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: cmslfz@lfz.com, IP Address: 47.8.178.54
+ 2020-11-23 17:52:30,089 [P2184/D2/T53] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username cmslfz@lfz.com from IP address 47.8.178.54
+ 2020-11-23 17:52:30,089 [P2184/D2/T53] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: cmslfz@lfz.com logged in from IP address 47.8.178.54
+ 2020-11-23 18:12:01,535 [P2184/D2/T248] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: cmslfz@lfz.com, IP Address: 47.8.178.54
+ 2020-11-23 18:12:04,472 [P2184/D2/T243] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: cmslfz@lfz.com, IP Address: 47.8.178.54
+ 2020-11-23 18:16:24,314 [P2184/D2/T244] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username cmslfz@lfz.com from IP address 47.8.178.54
+ 2020-11-23 18:16:24,330 [P2184/D2/T244] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: cmslfz@lfz.com logged in from IP address 47.8.178.54
+ 2020-11-23 18:36:01,681 [P2184/D2/T261] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: cmslfz@lfz.com, IP Address: 47.8.178.54
+ 2020-11-23 18:36:03,650 [P2184/D2/T244] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: cmslfz@lfz.com, IP Address: 47.8.178.54
+ 2020-11-23 19:14:38,848 [P2184/D2/T261] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+ 2020-11-23 20:13:28,809 [P2184/D2/T155] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-11-22 20:13:28

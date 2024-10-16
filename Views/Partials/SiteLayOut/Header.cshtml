@@ -1,0 +1,75 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+
+
+@{ var home = Model.AncestorOrSelf(1);}
+
+
+
+
+<header> 
+<a href="/" class="logo" data-aos="flip-left" data-aos-duration="1500">
+    <img src="/images/logo.png" width="126" height="102" alt="" class="img-responsive hideOnScroll">
+    <img src="/images/logo2.png" width="70" height="73" alt="" class="img-responsive showOnScroll"> </a>
+    <div class="headerNavBx"> 
+        <div id="hamburger" class="hamburgerBx visible-sm visible-xs">
+             <span></span> <span></span> <span></span> 
+             </div>
+             <nav class="mainNav"> 
+             <ul> 
+             <li> 
+                 <a href="/about-us/lfz-profile/" class="visible-md visible-lg">About Us</a> 
+                 <a href="javascript:;" class="visible-sm visible-xs">About Us</a>
+                 <ul class="subLevelMenu">
+                     <li><a href="/about-us/lfz-profile/">LFZ Profile</a></li>
+                     <li><a href="/about-us/site-layout/">Site Layout</a></li>
+                     <li><a href="/about-us/promoters">Promoters</a></li> 
+                     <li><a href="/about-us/clients/">Clients</a></li> 
+                 </ul>
+             </li> 
+             <li> 
+                 <a href="/why-lftz/overview/" class="visible-md visible-lg">Why LFZ</a> 
+                 <a href="javascript:;" class="visible-sm visible-xs">Why LFZ</a> 
+                 <ul class="subLevelMenu"> 
+                     <li><a href="/why-lftz/overview/">Overview</a></li>
+                     <li><a href="/why-lftz/incentives/">Incentives</a></li>
+                     <li><a href="/why-lftz/development-plan/">Development Plan</a></li>
+                     <li><a href="/why-lftz/facilities/">Facilities</a></li>
+                     <li><a href="/why-lftz/faqs/">FAQs</a></li> 
+                 </ul>
+            </li>
+        <li> 
+                <a href="/setting-up-lfz/application-process/" class="visible-md visible-lg">Setting Up@LFZ</a> 
+                <a href="javascript:;" class="visible-sm visible-xs">Setting Up@LFZ</a> 
+                <ul class="subLevelMenu">
+                     <li> <a href="/setting-up-lfz/application-process/">Application Process</a></li>
+                     <!--<li><a href="/setting-up-lfz/licenses/">Licenses</a></li>-->
+                     <li><a href="/setting-up-lfz/rules-regulations/">Rules & Regulations</a></li>
+                </ul>
+                </li>
+                <li><a href="/resources/">Resources</a> </li>
+                <li><a href="/sustainability/">Sustainability</a></li>
+                <li><a href="/media/news-events/"class="visible-md visible-lg">Media</a>
+                <a href="javascript:;" class="visible-sm visible-xs">Media</a>
+                <ul class="subLevelMenu"> 
+                <li><a href="/media/press-releases/">Press Releases</a></li>
+                <li><a href="/media/news-events/">News & Events</a></li> 
+                <li><a href="/media/gallery/">Gallery</a></li>
+                </ul> 
+                </li>
+                </ul> 
+                <div class="clearfix"></div></nav> 
+                <div class="headerShareBx"> 
+                <a href="#" class="headShareBut" data-toggle="tooltip" data-placement="bottom" title="EN"></a>
+                </div> 
+                 
+                <div class="headerSearchBx"><form id="search" method="get" action="/search">
+                <a href="javascript:;" class="headSearchBut"></a> 
+                <div class="searchInputBx"> 
+                 <input type="text" value=""  id="txt_search" name="Search"  placeholder="Search" class="searchInput"> 
+                </div></form>
+                </div>
+                 
+<div class="clearfix"></div> </div> <div class="clearfix"></div> 
+</header>
+ 

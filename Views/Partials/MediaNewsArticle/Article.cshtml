@@ -1,0 +1,22 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+ <div class="container">
+                
+                <div class="newsArticle" data-aos="fade-up" data-aos-duration="1000">
+                     @if (Model.HasValue("newsText"))
+                      {
+                        <h6>@(!string.IsNullOrEmpty(Model.GetPropertyValue("newsText").ToString()) ? Model.GetPropertyValue("newsText") : "")</h6>
+                      }
+                      @if (Model.HasValue("newsDate"))
+                      {
+                        <span class="articleDate">@(DateTime.Parse(Model.GetPropertyValue("newsDate").ToString()).ToString("dd MMMM, yyyy"))</span>
+                      }
+                    <img src="@((Model.GetPropertyValue<IPublishedContent>("newsThumbImage")).Url)" width="" height="" alt="" class="img-responsive pull-right articleThumb">
+                    @if (Model.HasValue("centerBodyText"))
+                      {
+                         @Html.Raw(@Model.GetPropertyValue("centerBodyText"))
+                      }
+                    
+                </div>
+                
+            </div>

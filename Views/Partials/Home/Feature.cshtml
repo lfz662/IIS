@@ -1,0 +1,40 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+<div class="featureBx" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 pull-right">
+                            <div class="featureTxt text-center">
+                                <h2 class="hidden-sm hidden-xs">@Model.GetPropertyValue("title")</h2>
+                                <p>@Model.GetPropertyValue("description")</p>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-xs-12 pull-right">
+                            <ul class="featureIconList" data-aos="fade-right" data-aos-duration="1500">
+                                @{
+                                    var FeaturesList = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("featuresList");
+                                    if (FeaturesList != null && FeaturesList.Count() > 0)
+                                    {
+                                        foreach (var field in FeaturesList)
+                                        {
+                                            var secFeatImg = field.GetPropertyValue<IPublishedContent>("image");
+                                            
+                                            <li>
+                                                <span class="featureIconBx">
+                                                    <img src="@secFeatImg.Url" width="92" height="84" alt="" class="img-responsive">
+                                                </span>
+                                                <strong class="featureIconHead">@field.GetPropertyValue("title")</strong>
+                                                <span class="featureIconTxt">@field.GetPropertyValue("description")</span>
+                                            </li>
+                                           
+                                        }
+                                    }
+                                }
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>                    
+                </div>
+                <span class="orangeSkewLft"></span>
+            </div>

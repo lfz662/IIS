@@ -1,0 +1,104 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+@if (!Model.GetPropertyValue<bool>("isBanner"))
+{
+<div class="bannerWithTexture">
+            <div class="innerTopBanner">
+                   
+                   @if(Model.HasValue("bannerBackgroundImage"))
+                   {
+                    <!-- desktop image -->
+                     <div class="innerTopBannerImgDesk hidden-sm hidden-xs" style="background-image: url(@((Model.GetPropertyValue<IPublishedContent>("bannerBackgroundImage")).Url));"></div>
+                    }
+                    
+                    @if(Model.HasValue("bannerMobileImage"))
+                    {
+                    <!-- mobile image -->
+                    <div class="innerTopBannerImgMob visible-sm visible-xs" style="background-image: url(@((Model.GetPropertyValue<IPublishedContent>("bannerMobileImage")).Url));"></div>
+                    }
+                     
+                     @{
+                          if (Model.GetPropertyValue<bool>("IsBannerVideo") && Model.HasValue("videoUrl"))
+                          {
+                              <video width="320" height="240" poster="images/videoPoster.png" autoplay muted loop playsinline class="hidden-sm hidden-xs">
+                                <source src="@Model.GetPropertyValue("videoUrl")" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                          }
+                      }
+                    
+                      @if (Model.HasValue("bannerTitle"))
+                      {
+                        <h1 class="pageTitle" data-aos="fade-down" data-aos-duration="1000">@(@Html.Raw(!string.IsNullOrEmpty(Model.GetPropertyValue("bannerTitle").ToString()) ? Model.GetPropertyValue("bannerTitle") : ""))</h1>
+                        <!--<h1 class="pageTitle" data-aos="fade-down" data-aos-duration="1000">@(!string.IsNullOrEmpty(Model.GetPropertyValue("bannerTitle").ToString()) ? Model.GetPropertyValue("bannerTitle") : "")</h1>-->
+                      }   
+                    <div class="bredcrumb" data-aos="fade-right" data-aos-duration="1000">
+                        @Umbraco.RenderMacro("BreadCum")
+                    </div>
+                </div>
+                @if (Model.HasValue("bannerDescription"))
+                {
+                    <div class="container">
+                        <div class="bannerBtmTxt" data-aos="fade-right" data-aos-duration="1000">
+                            @Html.Raw(@Model.GetPropertyValue("bannerDescription"))
+                        </div>
+                    </div>
+                }
+            </div>
+}
+            <div id="vm" class="featureBx profileCont1" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 pull-right">
+                            <div class="featureTxt text-center">
+                               @if (Model.HasValue("missionTitle"))
+                               { 
+                                 <h2>@Html.Raw(Model.GetPropertyValue("missionTitle"))</h2> 
+                               }
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-xs-12 pull-right" data-aos="fade-right" data-aos-duration="1500">
+                            @if (Model.HasValue("missionDescription"))
+                            {
+                                <p class="text-center">@Model.GetPropertyValue("missionDescription") </p>
+                            }
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>                    
+                </div>
+                <span class="orangeSkewLft"></span>
+            </div>
+
+            <div class="featureBx featureBxD2 profileCont2" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 pull-right visible-sm visible-xs">
+                            <div class="featureTxt text-center" data-aos="fade-left" data-aos-duration="1500">
+                               @if (Model.HasValue("visionTitle"))
+                               { 
+                                    <h2>@Html.Raw(Model.GetPropertyValue("visionTitle"))</h2> 
+                               }
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-xs-12 pull-right">
+                            @if (Model.HasValue("visionDescription"))
+                            {
+                               <p class="text-center">@Model.GetPropertyValue("visionDescription") </p>
+                             }
+                        </div>
+                        <div class="col-md-3 col-xs-12 pull-right hidden-sm hidden-xs">
+                            <div class="featureTxt text-center" data-aos="fade-left" data-aos-duration="1500">
+                               @if (Model.HasValue("visionTitle"))
+                               { 
+                                    <h2>@Html.Raw(Model.GetPropertyValue("visionTitle"))</h2> 
+                               }                               
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>                    
+                </div>
+                <span class="whiteSkewLft"></span>
+            </div>
+       
+           @Model.GetPropertyValue("valueText") 
+        

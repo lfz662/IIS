@@ -1,0 +1,11 @@
+﻿ 2021-02-19 02:27:08,128 [P7540/D2/T60] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-02-18 02:27:08
+ 2021-02-19 06:27:08,130 [P7540/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-02-18 06:27:08
+ 2021-02-19 09:31:36,216 [P7540/D2/T186] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-02-19 10:27:08,131 [P7540/D2/T58] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-02-18 10:27:08
+ 2021-02-19 14:27:08,133 [P7540/D2/T192] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-02-18 14:27:08
+ 2021-02-19 16:22:22,620 [P7540/D2/T34] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2021-02-19 18:27:08,133 [P7540/D2/T26] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-02-18 18:27:08
+ 2021-02-19 19:04:13,791 [P7540/D2/T208] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-02-19 19:04:17,697 [P7540/D2/T112] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-02-19 19:04:25,635 [P7540/D2/T31] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2021-02-19 22:27:08,135 [P7540/D2/T159] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2021-02-18 22:27:08

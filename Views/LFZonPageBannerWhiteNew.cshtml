@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "MasterPage.cshtml";
+}
+@section fullPage
+{
+<!--content start-->
+<section id="content">
+  
+     @Html.CachedPartial("LFZOnPage/LFZpagewhiteslantnew",Model.Content, 3600,true)
+    @Html.Raw(Model.Content.GetPropertyValue("pageData"))
+</section>
+ <!--content end-->
+}
+@section footerScripts
+{
+}

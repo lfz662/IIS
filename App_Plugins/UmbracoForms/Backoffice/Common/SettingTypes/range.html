@@ -1,0 +1,4 @@
+﻿<div ng-controller="UmbracoForms.SettingTypes.RangeController as vm">
+    <input type="range" min="{{vm.range.min}}" max="{{vm.range.max}}" step="{{vm.range.step}}" ng-model="setting.value"/>
+    <small>{{ setting.value }}</small>
+</div>

@@ -1,0 +1,74 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+<div class="profileVideoBxNew" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                <div class="container">
+                    <div>
+                        
+	
+                        <div  id="profileVideoNew">
+                        @{
+                            
+                            var ProfileSection = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("profileSection");
+                            if (ProfileSection != null && ProfileSection.Count() > 0)
+                            {
+                            int i = 0;
+                                foreach (var field in ProfileSection)
+                                {
+                                    var proDeskImg = field.GetPropertyValue<IPublishedContent>("deskImage");
+                                    var proMobImg = field.GetPropertyValue<IPublishedContent>("mobileImage");
+                                     if(i == 0){       
+                                        <!-- First slide -->
+                                        <div class="item active">
+                                            <div class="carousel-caption">
+                                                <div class="profileVideoThumb">
+                                                    <div class="videoPlaceholder" data-animation="animated zoomIn animationDelay1">
+                                                        <!--<a class="fancyboxInline" href="#inline"></a>-->
+                                                        <!--<img src="@proMobImg.Url" width="640" height="300" alt="" class="img-responsive visible-sm visible-xs">-->
+                                                        <img src="@proDeskImg.Url" width="604" height="300" alt="" class="img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="profileVideoTxt">
+                                                    <div class="profileVideoMainTxt">
+                                                        <p data-animation="animated fadeInRight animationDelay2">@field.GetPropertyValue("profileDescription")</p>
+                                                         <span class="profileAuthor" data-animation="animated fadeInUpBig animationDelay3">@field.GetPropertyValue("profileAuthor")</span>
+                                                        <span class="profileDesignation" data-animation="animated fadeInUpBig animationDelay4">@field.GetPropertyValue("profileDesignation")</span>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div><!-- /.item -->
+                                        }else{
+                                         <!--  slide -->
+                                        <div class="item">
+                                            <div class="carousel-caption">
+                                                <div class="profileVideoThumb">
+                                                    <div class="videoPlaceholder" data-animation="animated zoomIn animationDelay1">
+                                                        <!-- <a class="fancyboxInline" href="#inline"></a> -->
+                                                            <img src="@proDeskImg.Url" width="604" height="300" alt="" class="img-responsive hidden-sm hidden-xs">
+                                                            <img src="@proMobImg.Url" width="640" height="300" alt="" class="img-responsive visible-sm visible-xs">
+                                                            
+                                                    </div>
+                                                </div>
+                                                <div class="profileVideoTxt">
+                                                    <div class="profileVideoMainTxt">
+                                                        <p data-animation="animated fadeInRight animationDelay2">@field.GetPropertyValue("profileDescription")</p>
+                                                        <span class="profileAuthor" data-animation="animated fadeInUpBig animationDelay3">@field.GetPropertyValue("profileAuthor")</span>
+                                                        <span class="profileDesignation" data-animation="animated fadeInUpBig animationDelay4">@field.GetPropertyValue("profileDesignation")</span>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div><!-- /.item -->
+                                        }
+                                        i++;
+                                    }
+                                }
+                            }
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            
+            

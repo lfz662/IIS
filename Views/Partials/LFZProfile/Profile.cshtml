@@ -1,0 +1,38 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+ <div class="boardDirectorsBx" >
+                <div class="container" >
+                    <h2 class="text-center" data-aos="fade-up" data-aos-duration="250" data-aos-offset="200">@Model.GetPropertyValue("title")</h2>
+                        <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="200">
+                        <ul class="directorsList" id="directorGallery">
+                        @{
+                            var boardOfDirectors = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("boardOfDirectorsList");
+                             if (boardOfDirectors != null && boardOfDirectors.Count() > 0)
+                              {
+                                 foreach (var field in boardOfDirectors)
+                                 {
+                                    var profileImmg = field.GetPropertyValue<IPublishedContent>("profilePicture");
+                                     <li>
+                                        <div class="listWrap">
+                                            <img src="@profileImmg.Url" width="250" height="330" alt="" class="img-responsive profileImg">
+                                            <span class="imageFrame"></span>
+                                            <span class="listCaption">
+                                                <span class="directorName">@Html.Raw(@field.GetPropertyValue("directorName"))</span>
+                                                <!--<span class="directorDesig">@Html.Raw(@field.GetPropertyValue("directorDesignation"))</span>-->
+                                            </span>
+                                            <span class="directorDesig">@Html.Raw(@field.GetPropertyValue("directorDesignation"))</span>
+                                        </div>
+                                    </li>
+                                    
+                                   }
+                               }
+                          }
+                       
+                    </ul>
+                   <div class="clearfix"></div>
+                    </div>
+                </div>
+                <span class="textureLft"></span>
+                <span class="textureMid"></span>
+                <span class="textureRht"></span>
+            </div>

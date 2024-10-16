@@ -1,0 +1,24 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Umbraco.Web.Models
+@{
+    Layout = null;
+    if (Model.Content.HasValue("redirectPage") && Model.Content.HasValue("isNewWindow"))
+        {
+            var pageUrl = CurrentPage.GetPropertyValue("redirectPage", true);
+           
+             Response.Redirect(pageUrl.Url);
+        }
+        else if(Model.Content.HasValue("pageUrl") && Model.Content.HasValue("isNewWindow"))
+        {
+            var pageUrl1 = CurrentPage.GetPropertyValue("pageUrl");
+            
+            Response.Write("<script type='text/javascript'>window.open('"+ @pageUrl1 +"','_blank');window.history.back();</script>");
+            
+        }
+        else
+        {
+          var nodeId = CurrentPage.GetPropertyValue("redirectPage", true);
+            Response.Redirect(nodeId.Url);
+        }
+
+}

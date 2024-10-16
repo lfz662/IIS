@@ -1,0 +1,51 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+@{
+  var SecImg = Model.GetPropertyValue<IPublishedContent>("sectionImage");
+}
+ <div class="homeJoinBx" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
+                <div class="container">
+                    <div class="homeJoinBg">
+                        <div class="homeJoinTexture">
+                            <span class="whiteSkewLft"></span>
+                            <span class="texture1"></span>
+                            <span class="texture2"></span>
+                        </div>    
+                        <div class="homeJoinCont">
+                            <span class="freeZoneImg">
+                                <img src="@SecImg.Url" width="202" height="202" alt="" class="img-responsive">
+                            </span>
+                            <span class="freeZoneTxt">@Model.GetPropertyValue("sectionTitle")<br/>
+                                <a href="@Model.GetPropertyValue("callToActionLink")" class="anchorButtonTxt ">@Model.GetPropertyValue("callToActionTitle")</a>
+                            </span>
+                            <div class="fzThumbBx" data-aos="fade-left" data-aos-duration="1500">
+                                <ul>
+                                @{
+                                        var JoinSecTexturet = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("joinTexture");
+                                        if (JoinSecTexturet != null && JoinSecTexturet.Count() > 0)
+                                        {
+                                           foreach (var field in JoinSecTexturet)
+                                            {
+                                            var secjonImg = field.GetPropertyValue<IPublishedContent>("image");
+                                            <li>
+                                                <a href="/why-lftz/overview/">
+                                                <span class="fzThumbImg">
+                                                    <img src="@secjonImg.Url" width="70" height="57" alt="" class="img-responsive">
+                                                </span>
+                                                <span class="fzThumbTxt">
+                                                   @Html.Raw(@field.GetPropertyValue("title"))
+                                                </span>
+                                                </a>
+                                            </li>
+                                            }
+                                        }
+                                }
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        <div class="clearfix"></div>
+                    </div>    
+                </div>
+           </div>
+       </div>
+   

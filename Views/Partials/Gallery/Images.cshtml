@@ -1,0 +1,421 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web.Models
+ <div class="container">
+     <div class="valuesTabs mobiledropdown" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200"><!-- Nav tabs -->
+     <div class="valuesThumbBX apppr"><span class="span_select visible-xs">Site Location</span>
+        <ul class="valuesTabThumb options">
+          <li class="active"><a href="#site" data-toggle="tab">Photos</a></li>
+          <li><a href="#visits" data-toggle="tab">Events</a></li>
+        </ul>
+      </div>
+      <style>
+         .galleryBx .fancybox img{height:17.5vw;width: 26vw;}
+      </style>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div id="site" class="tab-pane fade in active">
+            <div class="row1">
+                    <div class="galleryBx" data-aos="fade-up" data-aos-duration="1000">
+                        <ul id="paginationContent">
+                           @{
+                            var galleryImage = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("galleryImage");
+                             if (galleryImage != null && galleryImage.Count() > 0)
+                              {
+                                 foreach (var field in galleryImage)
+                                 {  
+                                    var galleryImg = field.GetPropertyValue<IPublishedContent>("image");
+                                    var gallerybigImg=field.GetPropertyValue<IPublishedContent>("bigImage");
+                                    var gallerytype= field.GetPropertyValue<string>("galleryImageType");
+                                    
+                                    if(@gallerytype == "Site Location")
+                                    {
+                                        <li> 
+                                         <a href="@gallerybigImg.Url" class="fancybox" data-fancybox-group="gallery"><img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive"></a>
+                                        </li>
+                                     }
+                                   
+                                 }
+                               }
+                             }
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+        </div>
+    <!-- visit starts -->
+        <div id="visits" class="tab-pane fade">
+		 <!-- section 3 starts -->
+        <div class="row1">
+                    <div class="galleryBx" data-aos="fade-up" data-aos-duration="1000">
+                        <span style="font-size: 22px;color: #011a4f;">Visit by His Excellency, Mr. Babajide Sanwo-Olu, Governor of Lagos State  - March 2021 </span>
+                        <p></p>
+                        <ul id="paginationContent">
+                            @{
+                            var galleryImage2 = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("galleryImage");
+                             if (galleryImage2 != null && galleryImage2.Count() > 0)
+                              {
+                                 foreach (var field in galleryImage2)
+                                 {
+                                    var galleryImg = field.GetPropertyValue<IPublishedContent>("image");
+                                    var gallerybigImg=field.GetPropertyValue<IPublishedContent>("bigImage");
+                                    var galleryflag=field.GetPropertyValue<string>("galleryImageType");
+                                    
+                                    if(@galleryflag == "gvisit")
+                                    {
+                                    <li>
+                                        <a href="@gallerybigImg.Url" class="fancybox" data-fancybox-group="gallery"><img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive"></a>
+                                    </li>
+                                   }
+                                 }
+                               }
+                             }
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+        <!-- section 3 ends -->
+		<!-- visit2 starts -->
+            <div class="row1">
+                    <div class="galleryBx" data-aos="fade-up" data-aos-duration="1000">
+                        <span style="font-size: 22px;color: #011a4f;">Visit by His Excellency Jérôme Pasquier, Ambassador of France in Nigeria et les Conseillers du Commerce Extérieur - April 2021</span>
+                        <p></p>
+                        <ul id="paginationContent">
+                            @{
+                            var galleryImage1 = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("galleryImage");
+                             if (galleryImage1 != null && galleryImage1.Count() > 0)
+                              {
+                              int vcount=1;
+                                 foreach (var field in galleryImage1)
+                                 {
+                                    var galleryImg = field.GetPropertyValue<IPublishedContent>("image");
+                                    var gallerybigImg=field.GetPropertyValue<IPublishedContent>("bigImage");
+                                    var galleryflag=field.GetPropertyValue<string>("galleryImageType");
+                                    var galleryvideo=field.GetPropertyValue<string>("videoEnable");
+                                    var galleryvideourl=field.GetPropertyValue<string>("videoURL");
+                                    
+                                    
+                                   if(@galleryflag == "bsvisit" && galleryvideo=="True")
+                                    {
+                                    <li>
+                                    <a class="fancybox fancybox.iframe" href="@galleryvideourl">
+                                    <img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive">
+                                    <i class="fa fa-play"></i>
+                                    </a>
+                                   </li>
+                                  
+                                   }
+                                  else if(@galleryflag == "bsvisit" && galleryvideo=="False")
+                                    {
+                                    <li> 
+                                         <a href="@gallerybigImg.Url" class="fancybox" data-fancybox-group="gallery"><img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive"></a>
+                                    </li>
+                                   }
+                                   
+                                 }
+                               }
+                               
+                             }
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+		<!-- visit2 end -->		
+		<!-- visit8 -->
+            <div class="row1">
+                    <div class="galleryBx" data-aos="fade-up" data-aos-duration="1000">
+                        <span style="font-size: 22px;color: #011a4f;">High Commissioner of India Visit (7th May 2021)</span>
+                        <p></p>
+                        <ul id="paginationContent">
+                            @{
+                            var galleryImage8 = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("galleryImage");
+                             if (galleryImage8 != null && galleryImage8.Count() > 0)
+                              {
+                              int vcount=1;
+                                 foreach (var field in galleryImage8)
+                                 {
+                                    var galleryImg = field.GetPropertyValue<IPublishedContent>("image");
+                                    var gallerybigImg=field.GetPropertyValue<IPublishedContent>("bigImage");
+                                    var galleryflag=field.GetPropertyValue<string>("galleryImageType");
+                                    var galleryvideo=field.GetPropertyValue<string>("videoEnable");
+                                    var galleryvideourl=field.GetPropertyValue<string>("videoURL");                                    
+                                    
+                                   if(@galleryflag == "HCIVisit" && galleryvideo=="True")
+                                    {
+                                    <li>
+                                    <a class="fancybox fancybox.iframe" href="@galleryvideourl">
+                                    <img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive">
+                                    <i class="fa fa-play"></i>
+                                    </a>
+                                   </li>                                  
+                                   }
+                                  else if(@galleryflag == "HCIVisit" && galleryvideo=="False")
+                                    {
+                                    <li> 
+                                         <a href="@gallerybigImg.Url" class="fancybox" data-fancybox-group="gallery"><img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive"></a>
+                                    </li>
+                                   }                                   
+                                 }
+                               }                               
+                             }
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            <!-- visit8 end -->
+			<!-- visit1 -->
+            <div class="row1">
+                    <div class="galleryBx" data-aos="fade-up" data-aos-duration="1000">
+                        <span style="font-size: 22px;color: #011a4f;">Visit of H.E. Mr. Abhay Thakur, High Commissioner of India to Nigeria. - May 2021</span>
+                        <p></p>
+                        <ul id="paginationContent">
+                            @{
+                            var galleryImage5 = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("galleryImage");
+                             if (galleryImage5 != null && galleryImage5.Count() > 0)
+                              {
+                              int vcount=1;
+                                 foreach (var field in galleryImage5)
+                                 {
+                                    var galleryImg = field.GetPropertyValue<IPublishedContent>("image");
+                                    var gallerybigImg=field.GetPropertyValue<IPublishedContent>("bigImage");
+                                    var galleryflag=field.GetPropertyValue<string>("galleryImageType");
+                                    var galleryvideo=field.GetPropertyValue<string>("videoEnable");
+                                    var galleryvideourl=field.GetPropertyValue<string>("videoURL");
+                                    
+                                    
+                                   if(@galleryflag == "indiancommissioner" && galleryvideo=="True")
+                                    {
+                                    <li>
+                                    <a class="fancybox fancybox.iframe" href="@galleryvideourl">
+                                    <img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive">
+                                    <i class="fa fa-play"></i>
+                                    </a>
+                                   </li>
+                                  
+                                   }
+                                  else if(@galleryflag == "indiancommissioner" && galleryvideo=="False")
+                                    {
+                                    <li> 
+                                         <a href="@gallerybigImg.Url" class="fancybox" data-fancybox-group="gallery"><img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive"></a>
+                                    </li>
+                                   }
+                                   
+                                 }
+                               }
+                               
+                             }
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            <!-- visit1 end -->
+		<!-- visit7 -->
+            <div class="row1">
+                    <div class="galleryBx" data-aos="fade-up" data-aos-duration="1000">
+                        <span style="font-size: 22px;color: #011a4f;">Euro Cham Visit (15th June, 2021)</span>
+                        <p></p>
+                        <ul id="paginationContent">
+                            @{
+                            var galleryImage7 = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("galleryImage");
+                             if (galleryImage7 != null && galleryImage7.Count() > 0)
+                              {
+                              int vcount=1;
+                                 foreach (var field in galleryImage7)
+                                 {
+                                    var galleryImg = field.GetPropertyValue<IPublishedContent>("image");
+                                    var gallerybigImg=field.GetPropertyValue<IPublishedContent>("bigImage");
+                                    var galleryflag=field.GetPropertyValue<string>("galleryImageType");
+                                    var galleryvideo=field.GetPropertyValue<string>("videoEnable");
+                                    var galleryvideourl=field.GetPropertyValue<string>("videoURL");                                    
+                                    
+                                   if(@galleryflag == "ECVisit" && galleryvideo=="True")
+                                    {
+                                    <li>
+                                    <a class="fancybox fancybox.iframe" href="@galleryvideourl">
+                                    <img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive">
+                                    <i class="fa fa-play"></i>
+                                    </a>
+                                   </li>                                  
+                                   }
+                                  else if(@galleryflag == "ECVisit" && galleryvideo=="False")
+                                    {
+                                    <li> 
+                                         <a href="@gallerybigImg.Url" class="fancybox" data-fancybox-group="gallery"><img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive"></a>
+                                    </li>
+                                   }                                   
+                                 }
+                               }                               
+                             }
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            <!-- visit7 end -->
+		 <!-- visit6 -->
+            <div class="row1">
+                    <div class="galleryBx" data-aos="fade-up" data-aos-duration="1000">
+                        <span style="font-size: 22px;color: #011a4f;">European Delegation Visit (1st July 2021)</span>
+                        <p></p>
+                        <ul id="paginationContent">
+                            @{
+                            var galleryImage6 = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("galleryImage");
+                             if (galleryImage6 != null && galleryImage6.Count() > 0)
+                              {
+                              int vcount=1;
+                                 foreach (var field in galleryImage6)
+                                 {
+                                    var galleryImg = field.GetPropertyValue<IPublishedContent>("image");
+                                    var gallerybigImg=field.GetPropertyValue<IPublishedContent>("bigImage");
+                                    var galleryflag=field.GetPropertyValue<string>("galleryImageType");
+                                    var galleryvideo=field.GetPropertyValue<string>("videoEnable");
+                                    var galleryvideourl=field.GetPropertyValue<string>("videoURL");                                    
+                                    
+                                   if(@galleryflag == "EDvisit" && galleryvideo=="True")
+                                    {
+                                    <li>
+                                    <a class="fancybox fancybox.iframe" href="@galleryvideourl">
+                                    <img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive">
+                                    <i class="fa fa-play"></i>
+                                    </a>
+                                   </li>                                  
+                                   }
+                                  else if(@galleryflag == "EDvisit" && galleryvideo=="False")
+                                    {
+                                    <li> 
+                                         <a href="@gallerybigImg.Url" class="fancybox" data-fancybox-group="gallery"><img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive"></a>
+                                    </li>
+                                   }                                   
+                                 }
+                               }                               
+                             }
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            <!-- visit6 end -->
+             <!-- visit5 -->
+            <div class="row1">
+                    <div class="galleryBx" data-aos="fade-up" data-aos-duration="1000">
+                        <span style="font-size: 22px;color: #011a4f;">US Consul General & American Business Council Visit (30th July 2021)</span>
+                        <p></p>
+                        <ul id="paginationContent">
+                            @{
+                            var galleryImage05 = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("galleryImage");
+                             if (galleryImage05 != null && galleryImage05.Count() > 0)
+                              {
+                              int vcount=1;
+                                 foreach (var field in galleryImage05)
+                                 {
+                                    var galleryImg = field.GetPropertyValue<IPublishedContent>("image");
+                                    var gallerybigImg=field.GetPropertyValue<IPublishedContent>("bigImage");
+                                    var galleryflag=field.GetPropertyValue<string>("galleryImageType");
+                                    var galleryvideo=field.GetPropertyValue<string>("videoEnable");
+                                    var galleryvideourl=field.GetPropertyValue<string>("videoURL");
+                                    
+                                    
+                                   if(@galleryflag == "USCG" && galleryvideo=="True")
+                                    {
+                                    <li>
+                                    <a class="fancybox fancybox.iframe" href="@galleryvideourl">
+                                    <img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive">
+                                    <i class="fa fa-play"></i>
+                                    </a>
+                                   </li>
+                                  
+                                   }
+                                  else if(@galleryflag == "USCG" && galleryvideo=="False")
+                                    {
+                                    <li> 
+                                         <a href="@gallerybigImg.Url" class="fancybox" data-fancybox-group="gallery"><img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive"></a>
+                                    </li>
+                                   }
+                                   
+                                 }
+                               }
+                               
+                             }
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            <!-- visit5 end -->
+			<!-- section 4 starts -->
+        <div class="row1">
+                    <div class="galleryBx" data-aos="fade-up" data-aos-duration="1000">
+                        <span style="font-size: 22px;color: #011a4f;">OTHER EVENTS </span>
+                        <p></p>
+                        <ul id="paginationContent">
+                            @{
+                            var galleryImage3 = Model.GetPropertyValue<IEnumerable<IPublishedContent>>("galleryImage");
+                             if (galleryImage3 != null && galleryImage3.Count() > 0)
+                              {
+                                 foreach (var field in galleryImage3)
+                                 {
+                                    var galleryImg = field.GetPropertyValue<IPublishedContent>("image");
+                                    var gallerybigImg=field.GetPropertyValue<IPublishedContent>("bigImage");
+                                    var galleryflag=field.GetPropertyValue<string>("galleryImageType");
+                                    
+                                    if(@galleryflag == "Events")
+                                    {
+                                    <li>
+                                        <a href="@gallerybigImg.Url" class="fancybox" data-fancybox-group="gallery"><img src="@galleryImg.Url" width="" height="" alt="" class="img-responsive"></a>
+                                    </li>
+                                   }
+                                 }
+                               }
+                             }
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+        <!-- section 4 ends -->
+        </div>
+        <!-- visit ends -->
+        
+      </div>
+      <div class="clearfix"></div>
+      </div>
+     
+     @*  <div class="paginationBx" data-aos="fade-up" data-aos-duration="1000">
+                        <ul class="pagination">
+                            <li class="page-item">
+                              <a class="page-link butPrevNext" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item">
+                              <a class="page-link butPrevNext" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </li>
+                          </ul>
+                    </div>*@
+<style>
+
+    .fancybox-inner{height:80vh !important;}
+    .galleryBx ul li a{position: relative;}
+    .fa.fa-play{position: absolute;top: 45%;color: #fff;left: 45%;font-size:3vw;opacity:1;}
+      @@media only screen and (max-width: 400px)
+    {
+    .fancybox-inner{height:50vh !important;}
+    }
+</style>
+<script type="text/javascript">
+        $(function () {
+            $('.fancybox').fancybox({
+                width: 640,
+                height: 400,
+                type: 'iframe'
+            });
+        });
+    </script>
+
+              
+            </div>

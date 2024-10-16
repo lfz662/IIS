@@ -1,0 +1,21 @@
+﻿ 2023-03-31 04:47:09,557 [P10896/D2/T8] INFO  Umbraco.Core.MainDom - Stopping...
+ 2023-03-31 04:47:09,562 [P10896/D2/T8] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2023-03-31 04:47:09,566 [P10896/D2/T8] INFO  Umbraco.Web.ExamineStartup - Complete (took 4ms)
+ 2023-03-31 04:47:09,567 [P10896/D2/T8] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2023-03-31 04:47:39,725 [P10896/D2/T9] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: InitializationError
+
+_shutDownMessage=Initialization Error
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.AppDomainShutdownTimerCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.TimerQueueTimer.CallCallback()
+   at System.Threading.TimerQueueTimer.Fire()
+   at System.Threading.TimerQueue.FireNextTimers()

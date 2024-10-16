@@ -1,0 +1,139 @@
+﻿ 2020-08-27 00:04:08,040 [P1624/D2/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-27 00:05:46,352 [P1624/D2/T165] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 00:05:46,367 [P1624/D2/T165] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 00:07:45,835 [P1624/D2/T32] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 183.87.108.197 has logged out
+ 2020-08-27 00:24:28,003 [P1624/D2/T107] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-26 00:24:28
+ 2020-08-27 01:14:02,821 [P1624/D2/T25] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-08-27 01:14:02,821 [P1624/D2/T25] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2020-08-27 01:14:02,821 [P1624/D2/T25] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2020-08-27 01:14:02,821 [P1624/D2/T25] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2020-08-27 01:34:27,282 [P1624/D2/T27] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 01:34:27,282 [P1624/D2/T27] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 01:37:16,718 [P1624/D2/T145] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gallery' with Id '1251' has been published.
+ 2020-08-27 01:37:21,000 [P1624/D2/T145] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 01:37:21,000 [P1624/D2/T145] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 02:11:04,110 [P1624/D2/T103] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: webadmin@ltfz.com, IP Address: 183.87.108.197
+ 2020-08-27 02:33:41,196 [P1624/D2/T59] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-27 02:34:55,398 [P1624/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 02:34:55,398 [P1624/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 04:15:28,588 [P1624/D2/T78] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-27 04:24:28,038 [P1624/D2/T70] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-26 04:24:28
+ 2020-08-27 04:55:19,792 [P1624/D2/T105] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 04:55:19,792 [P1624/D2/T105] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 04:56:42,776 [P1624/D2/T107] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Site Layout' with Id '1155' has been published.
+ 2020-08-27 04:56:46,869 [P1624/D2/T107] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 04:56:46,869 [P1624/D2/T107] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 05:14:50,502 [P1624/D2/T60] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: webadmin@ltfz.com, IP Address: 183.87.108.197
+ 2020-08-27 05:14:58,518 [P1624/D2/T26] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: webadmin@ltfz.com, IP Address: 183.87.108.197
+ 2020-08-27 05:32:52,948 [P1624/D2/T132] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 05:32:52,948 [P1624/D2/T132] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 05:33:00,276 [P1624/D2/T132] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 05:33:00,291 [P1624/D2/T132] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 05:34:11,806 [P1624/D2/T126] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Development Plan' with Id '1163' has been published.
+ 2020-08-27 05:34:15,900 [P1624/D2/T151] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 05:34:15,900 [P1624/D2/T151] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 05:52:33,517 [P1624/D2/T126] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: webadmin@ltfz.com, IP Address: 183.87.108.197
+ 2020-08-27 05:52:34,314 [P1624/D2/T126] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: webadmin@ltfz.com, IP Address: 183.87.108.197
+ 2020-08-27 05:58:55,281 [P1624/D2/T126] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 05:58:55,296 [P1624/D2/T126] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 05:59:11,827 [P1624/D2/T87] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 05:59:11,827 [P1624/D2/T87] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 06:06:50,437 [P1624/D2/T155] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'LFZ Profile' with Id '1168' has been published.
+ 2020-08-27 06:06:54,558 [P1624/D2/T133] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 06:06:54,558 [P1624/D2/T133] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 06:08:20,683 [P1624/D2/T133] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Partials_LFZOnPage_LFZpagewhiteslantnew_cshtml.Execute() in c:\inetpub\wwwroot\lftzweb_umb\Views\Partials\LFZOnPage\LFZpagewhiteslantnew.cshtml:line 4
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at ASP._Page_Views_LFZonPageBannerWhiteNew_cshtml.<Execute>b__0() in c:\inetpub\wwwroot\lftzweb_umb\Views\LFZonPageBannerWhiteNew.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderSection>b__5(TextWriter tw)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views_MasterPage_cshtml.Execute() in c:\inetpub\wwwroot\lftzweb_umb\Views\MasterPage.cshtml:line 33
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2020-08-27 06:10:39,182 [P1624/D2/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Overview' with Id '1419' has been published.
+ 2020-08-27 06:10:43,260 [P1624/D2/T61] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 06:10:43,400 [P1624/D2/T61] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 06:14:01,946 [P1624/D2/T133] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Overview' with Id '1419' has been published.
+ 2020-08-27 06:14:06,024 [P1624/D2/T133] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 06:14:06,024 [P1624/D2/T133] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 06:18:53,538 [P1624/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clients' with Id '1259' has been published.
+ 2020-08-27 06:18:57,631 [P1624/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 06:18:57,631 [P1624/D2/T20] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 06:19:46,287 [P1624/D2/T133] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clients' with Id '1259' has been published.
+ 2020-08-27 06:19:50,396 [P1624/D2/T131] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 06:19:50,396 [P1624/D2/T131] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 06:19:53,600 [P1624/D2/T133] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clients' with Id '1259' has been published.
+ 2020-08-27 06:19:57,709 [P1624/D2/T120] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 06:19:57,709 [P1624/D2/T120] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 06:20:36,943 [P1624/D2/T151] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 183.87.108.197 has logged out
+ 2020-08-27 06:21:36,208 [P1624/D2/T52] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 06:21:36,208 [P1624/D2/T52] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 06:22:35,802 [P1624/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2020-08-27 06:22:40,036 [P1624/D2/T151] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 06:22:40,036 [P1624/D2/T151] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 06:22:53,333 [P1624/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2020-08-27 06:22:57,520 [P1624/D2/T115] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 06:22:57,661 [P1624/D2/T115] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 06:23:12,723 [P1624/D2/T120] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 183.87.108.197 has logged out
+ 2020-08-27 06:44:36,698 [P1624/D2/T76] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://hcptalks.com:80/umbraco
+ 2020-08-27 06:44:36,698 [P1624/D2/T76] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://hcptalks.com:80/umbraco (UmbracoModule request)
+ 2020-08-27 06:59:58,785 [P1624/D2/T117] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-27 08:24:28,066 [P1624/D2/T73] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-26 08:24:28
+ 2020-08-27 08:49:37,192 [P1624/D2/T51] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 08:49:37,192 [P1624/D2/T51] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 08:50:10,598 [P1624/D2/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2020-08-27 08:50:14,833 [P1624/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 08:50:14,958 [P1624/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 09:09:12,434 [P1624/D2/T124] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: webadmin@ltfz.com, IP Address: 183.87.108.197
+ 2020-08-27 10:02:30,350 [P1624/D2/T69] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-27 10:52:55,407 [P1624/D2/T83] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 10:52:55,407 [P1624/D2/T83] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197
+ 2020-08-27 10:54:21,219 [P1624/D2/T26] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-27 10:58:00,623 [P1624/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clients' with Id '1259' has been published.
+ 2020-08-27 10:58:04,733 [P1624/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2020-08-27 10:58:04,889 [P1624/D2/T59] INFO  umbraco.content - Saved Xml to file.
+ 2020-08-27 10:58:37,529 [P1624/D2/T26] INFO  Umbraco.Web.Editors.AuthenticationController - User webadmin@ltfz.com from IP address 183.87.108.197 has logged out
+ 2020-08-27 11:11:44,589 [P1624/D2/T103] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-27 11:39:28,371 [P1624/D2/T95] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-27 12:24:28,102 [P1624/D2/T122] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-26 12:24:28
+ 2020-08-27 13:14:49,238 [P1624/D2/T82] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-27 15:29:25,964 [P1624/D2/T146] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-27 15:39:08,569 [P1624/D2/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-27 16:24:28,128 [P1624/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-26 16:24:28
+ 2020-08-27 18:21:16,643 [P1624/D2/T163] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-27 18:27:54,341 [P1624/D2/T170] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-27 20:24:28,151 [P1624/D2/T217] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-08-26 20:24:28
+ 2020-08-27 20:43:44,993 [P1624/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2020-08-27 22:19:36,187 [P1624/D2/T89] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-08-27 23:18:49,975 [P1624/D2/T201] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webadmin@ltfz.com from IP address 183.87.108.197
+ 2020-08-27 23:18:49,975 [P1624/D2/T201] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webadmin@ltfz.com logged in from IP address 183.87.108.197

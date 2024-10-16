@@ -1,0 +1,62 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+<div class="container">
+                <div class="newsPageBx" data-aos="fade-up" data-aos-duration="1000">
+                    <ul id="paginationContent">
+@{
+	var pressReleases = Umbraco.TypedContent(1202).Children("redirectPage")
+						.Where(x => x.IsVisible());
+	foreach(var item in pressReleases)
+	{
+		var contentcollection = item.Children.Where("Visible");
+        foreach (Umbraco.Web.Models.DynamicPublishedContent field in contentcollection.OrderBy("newsDate desc"))
+        {
+            
+                
+                var date = DateTime.Parse(field.GetPropertyValue("newsDate").ToString()).ToString("dd MMMM, yyyy");
+                var titleTxt = field.GetPropertyValue("newsText");
+                var url = field.GetPropertyValue("externalLink") != "" ? field.GetPropertyValue("externalLink") : field.Url;
+                var externalurl = field.GetPropertyValue("showHtml").ToString() == "True" ? field.Url : field.GetPropertyValue("externalLink");
+                var newsThumbImage = field.GetPropertyValue<IPublishedContent>("newsThumbImage");
+                <li>
+                     <a target="_blank" href="@externalurl">
+                       <span class="newsThumb">
+                            <img src="@newsThumbImage.Url" width="100%" height="" alt="" class="img-responsive">
+                        </span>
+                         <span class="newsTxtBx" style="height:110px !important;">
+                             <span class="newsTxt">@titleTxt</span>
+                              <span class="newsDate">@date</span>
+                        </span>
+                       </a>
+                </li> 
+              
+        }
+	}
+
+}
+ </ul>
+                    <div class="clearfix"></div>
+                </div>  
+            @*    <div class="paginationBx" data-aos="fade-up" data-aos-duration="1000">
+                    <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link butPrevNext" href="#" aria-label="Previous">
+                            <span aria-hidden="true">«</span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item">
+                          <a class="page-link butPrevNext" href="#" aria-label="Next">
+                            <span aria-hidden="true">»</span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </li>
+                      </ul>
+                </div>  *@           
+            </div>

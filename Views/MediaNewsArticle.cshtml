@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "MasterPage.cshtml";
+}
+@section fullPage
+{
+
+<section id="content">
+    @Html.Partial("MediaNewsArticle/Banner")
+    @Html.Partial("MediaNewsArticle/Article")
+</section>
+ 
+  
+}
+@section footerScripts
+{
+}

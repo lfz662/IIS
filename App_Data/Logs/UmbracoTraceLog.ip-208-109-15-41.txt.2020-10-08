@@ -1,0 +1,13 @@
+﻿ 2020-10-08 00:03:08,617 [P8732/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2020-10-08 00:03:08,618 [P8732/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2020-10-08 00:03:08,618 [P8732/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2020-10-08 00:03:08,620 [P8732/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 1ms)
+ 2020-10-08 00:46:27,696 [P8732/D2/T47] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-10-08 01:59:26,420 [P8732/D2/T32] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-07 01:59:26
+ 2020-10-08 05:59:26,434 [P8732/D2/T81] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-07 05:59:26
+ 2020-10-08 09:59:26,456 [P8732/D2/T77] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-07 09:59:26
+ 2020-10-08 12:48:55,822 [P8732/D2/T76] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2020-10-08 13:59:26,480 [P8732/D2/T77] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-07 13:59:26
+ 2020-10-08 17:59:26,505 [P8732/D2/T24] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-07 17:59:26
+ 2020-10-08 21:59:26,534 [P8732/D2/T85] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2020-10-07 21:59:26
+ 2020-10-08 23:25:51,145 [P8732/D2/T5] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type careers matches a locally declared controller of type LFZ_Logic.Controllers.CareersController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
